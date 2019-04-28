@@ -1,0 +1,76 @@
+/* pages/Integral/Integral.wxss */
+page{
+  background-color: #efefef;
+}
+.content{
+  background-color: #fff;
+  padding-bottom: 100rpx;
+}
+
+.top{
+  width: 95%;
+  height: 250rpx;
+  /* display: flex; */
+  color: #fff;
+  /* line-height: 250rpx; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  padding: 50rpx 20rpx;
+  background-color: #FF3000;
+}
+.top image{
+  width: 100rpx;
+  height: 100rpx;
+  float: left;
+  margin-top: 75rpx;
+}
+.top text{
+  display: block;
+  float: left;
+  font-size: 36rpx;
+  line-height: 250rpx;
+  margin-left: 20rpx;
+}
+
+.item_list{
+  width: 100%;
+  /* border: 1px solid red; */
+  overflow: auto;
+  font-size: 28rpx;
+  color: #333;
+  margin: 20rpx 0;
+  padding: 20rpx 0;
+  background-color: #efefef;
+}
+
+.item_list_title{
+  display: block;
+  background-color: #fff;
+  padding: 20rpx;
+  font-size: 36rpx;
+}
+
+.item_list .item{
+  /* border: 1px solid blue; */
+  overflow: auto;
+  height: 80rpx;
+  padding: 20rpx 10rpx;
+  margin-top: 20rpx;
+  background-color: #fff;
+}
+.item_list .item .item_left{
+  float: left;
+  padding-left: 20rpx;
+}
+.item_list .item .item_left text{
+  display: block;
+}
+.item_list .item .item_right{
+  float: right;
+  /* border: 1px solid red; */
+  overflow: auto;
+  height: 80rpx;
+  line-height: 80rpx;
+  margin-right: 100rpx;
+  color: #EA2000
+}

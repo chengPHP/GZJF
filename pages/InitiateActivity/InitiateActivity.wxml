@@ -1,0 +1,137 @@
+<!-- 发起活动页面 pages/InitiateActivity/InitiateActivity.wxml-->
+<view class='content' >
+  <view class='section1' >
+    <view class='uploaders' >
+      <text class='uploaders_title' >上传图片</text>
+      <text class='uploaders_text' >请上传一张活动宣传图</text>
+    </view>
+    <block wx:for="{{imgs}}" wx:key="property">
+      <image src="{{item}}" class='uploader_imgs' bindtap='imgShow' data-src="{{item}}" data-img-id="{{img_ids[index]}}" bindlongtap="longTap" bindtouchstart="touchStart" bindtouchend="touchEnd" data-index="{{index}}"></image>
+    </block>
+    <view class='uploaderBtn' bindtap='selectImg'>
+      <image wx:if="{{imgs.length<1}}" src='{{uploaderImg}}'></image>
+    </view>
+  </view>
+
+  <view class='list_item' >
+    <view class='item_label' >活动类型</view>
+    <view class='item_right' >
+      <view class="section">
+        <picker bindchange="bindPickerChangeArea" value="{{index_area}}" range="{{array_area}}" range-key="name">
+          <view class="picker">
+            {{array_area[index_area].name}}
+          </view>
+        </picker>
+      </view>
+    </view>
+  </view>
+  <view class='list_item' >
+    <view class='item_label' >活动主题</view>
+    <view class='item_right' >
+      <input  placeholder='请填写活动主题' />
+    </view>
+  </view>
+  <view class='list_item' >
+    <view class='item_label' >手机绑定</view>
+    <view class='item_right' >
+      <input  placeholder='请选择参与人员是否绑定手机号' />
+    </view>
+  </view>
+  <view class='list_item' >
+    <view class='item_label' >活动人数</view>
+    <view class='item_right' >
+      <input  placeholder='参与人数最高为9999人' />
+    </view>
+  </view>
+
+  <view class='list_item' >
+    <view class='item_label' >所属群组</view>
+    <view class='item_right' >
+      <view class="section">
+        <picker bindchange="bindPickerChangeArea" value="{{index_area}}" range="{{array_area}}" range-key="name">
+          <view class="picker">
+            {{array_area[index_area].name}}
+          </view>
+        </picker>
+      </view>
+    </view>
+  </view>
+  <view class='list_item' >
+    <view class='item_label' >活动区域</view>
+    <view class='item_right' >
+      <view class="section">
+        <picker bindchange="bindPickerChangeArea" value="{{index_area}}" range="{{array_area}}" range-key="name">
+          <view class="picker">
+            {{array_area[index_area].name}}
+          </view>
+        </picker>
+      </view>
+    </view>
+  </view>
+  <view class='list_item' >
+    <view class='item_label' >活动地点</view>
+    <view class='item_right' >
+      <view class="section">
+        <picker bindchange="bindPickerChangeArea" value="{{index_area}}" range="{{array_area}}" range-key="name">
+          <view class="picker">
+            {{array_area[index_area].name}}
+          </view>
+        </picker>
+      </view>
+    </view>
+  </view>
+  <view class='list_item' >
+    <view class='item_label' >签到范围</view>
+    <view class='item_right' >
+      <input  placeholder='可签到的范围(默认单位KM，默认3KM)' />
+    </view>
+  </view>
+
+  <view class='list_item' >
+    <view class='item_label' >开始时间</view>
+    <view class='item_right' >
+      <view class="section">
+        <picker mode="date" value="{{start_date}}" start="2019-01-01" end="2020-09-01" bindchange="bindStartDateChange">
+          <view class="picker">
+            {{start_date}}
+          </view>
+        </picker>
+      </view>
+      <view class="section">
+        <picker mode="time" value="{{start_time}}" start="00:00" end="00:00" bindchange="bindStartTimeChange">
+          <view class="picker">
+            {{start_time}}
+          </view>
+        </picker>
+      </view>
+    </view>
+  </view>
+
+  <view class='list_item' >
+    <view class='item_label' >结束时间</view>
+    <view class='item_right' >
+      <view class="section">
+        <picker mode="date" value="{{end_date}}" start="2019-01-01" end="2020-09-01" bindchange="bindEndDateChange">
+          <view class="picker">
+            {{end_date}}
+          </view>
+        </picker>
+      </view>
+      <view class="section">
+        <picker mode="time" value="{{end_time}}" start="00:00" end="00:00" bindchange="bindEndTimeChange">
+          <view class="picker">
+            {{end_time}}
+          </view>
+        </picker>
+      </view>
+    </view>
+  </view>
+
+  <view class='item_textarea' >
+    <text class='textarea_label' >活动描述</text>
+    <textarea bindblur="bindTextAreaBlur" placeholder="请描述本次活动内容" />
+  </view>
+
+</view>
+
+<button class='sub_btn' >添加</button>

@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/me/me",
+    "pages/Integral/Integral",
+    "pages/InitiateActivity/InitiateActivity",
+    "pages/UserInfo/UserInfo",
+    "pages/index/index",
+    "pages/ActivityDetail/ActivityDetail",
+    "pages/Activity/activity",
+    "pages/logs/logs",
+    
+    "pages/EnrollList/EnrollList"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "广州街坊",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "custom": false,
+    "color": "#000000",
+    "selectedColor": "#1296db",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/index_select.png"
+      },
+      {
+        "pagePath": "pages/Activity/activity",
+        "text": "活动",
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/index_select.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "添加",
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/index_select.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "群组",
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/index_select.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "images/me.png",
+        "selectedIconPath": "images/me_select.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

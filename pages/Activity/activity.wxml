@@ -1,0 +1,162 @@
+<!--活动 任务 pages/Activity/activity.wxml-->
+<view class='content' >
+  <!-- 头部tabBar部分  开始 -->
+  <view class='tabbar_view' >
+    <view bindtap='tabItemShow' data-id="1" class="{{active_index==1?'tab_item tab_item_select':'tab_item'}}" style='border-right: 1rpx solid #efefef;'>
+      <image src='/images/icon.png' class='tab_item_icon' />
+      <text class='tab_item_title'>活动</text>
+    </view>
+    <view bindtap='tabItemShow' data-id="2" class="{{active_index==2?'tab_item tab_item_select':'tab_item'}}" >
+      <image src='/images/icon.png' class='tab_item_icon' />
+      <text class='tab_item_title'>任务</text>
+    </view>
+  </view>
+  <view class="{{active_index == 1 ? 'tabItem tab_item_show':'tabItem'}}" >
+    <!-- 头部tabBar部分  结束 -->
+    <!-- 搜索部分  开始 -->
+    <view class='search' >
+      <image class='search_img' src="/images/search.png" />
+      <input class='search_input' type="text" name="activ_name" value="{{activ_name}}" placeholder=" 活动搜索" />
+      <text>搜索</text>
+    </view>
+    <!-- 搜索部分  结束 -->
+    <!-- select条件部分  开始 -->
+    <view class='condition_list' >
+      <view class="section">
+        <picker bindchange="bindPickerChangeArea" value="{{index_area}}" range="{{array_area}}" range-key="name">
+          <view class="picker">
+            活动区域
+          </view>
+        </picker>
+        <image src='/images/arrow_down.png' class='seaction_logo' />
+      </view>
+      <view class="section">
+        <picker bindchange="bindPickerChangeType" value="{{index_type}}" range="{{array_type}}" range-key="name">
+          <view class="picker">
+            活动类型
+          </view>
+        </picker>
+        <image src='/images/arrow_down.png' class='seaction_logo' />
+      </view>
+      <view class="section">
+        <picker bindchange="bindPickerChangeStatus" value="{{index_status}}" range="{{array_status}}" range-key="name">
+          <view class="picker">
+            活动状态
+          </view>
+        </picker>
+        <image src='/images/arrow_down.png' class='seaction_logo' />
+      </view>
+    </view>
+    <!-- select条件部分  结束 -->
+    <!-- 活动、任务列表部分  开始 -->
+    <view class='activity_list' >
+      <view style='padding:0 15rpx;' >
+        <view class='activity_item' catchtap='toActivityDetail'>
+          <view class='activity_item_top'>
+            <image src='/images/activity_img.jpg' class='item_top_img'/>
+            <text class='item_name'>广州巡防</text>
+            <text class='item_time' >2019-4-26 14:20:00</text>
+            <text class='item_area' >万盛苑(广州市荔湾区芳村大道...)</text>
+            <text class='item_num'>已报11人</text>
+          </view>
+        </view>
+        <view class='activity_item' >
+          <view class='activity_item_top'>
+            <image src='/images/activity_img.jpg' class='item_top_img'/>
+            <text class='item_name'>广州巡防</text>
+            <text class='item_time' >2019-4-26 14:20:00</text>
+            <text class='item_area' >万盛苑(广州市荔湾区芳村大道...)</text>
+            <text class='item_num'>已报11人</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <!-- 活动、任务列表部分  结束 -->
+    <!-- 左下角固定框  开始 -->
+    <view class='sign' >
+      <image catchtap='' src="/images/sign.png" class='sign_img' />
+      <text>发起活动</text>
+    </view>
+    <view class='me_activity' >
+      <image catchtap='' src="/images/me.png" class='sign_img' />
+      <text>我的活动</text>
+    </view>
+    <!-- 左下角固定框  结束 -->
+  </view>
+
+
+
+  <view class="{{active_index == 2 ? 'tabItem tab_item_show':'tabItem'}}" >
+    <!-- 头部tabBar部分  结束 -->
+    <!-- 搜索部分  开始 -->
+    <view class='search' >
+      <image class='search_img' src="/images/search.png" />
+      <input class='search_input' type="text" name="activ_name" value="{{activ_name}}" placeholder=" 任务搜索" />
+      <text>搜索</text>
+    </view>
+    <!-- 搜索部分  结束 -->
+    <!-- select条件部分  开始 -->
+    <view class='condition_list' >
+      <view class="section">
+        <picker bindchange="bindPickerChangeArea" value="{{index_area}}" range="{{array_area}}" range-key="name">
+          <view class="picker">
+            任务区域
+          </view>
+        </picker>
+        <image src='/images/arrow_down.png' class='seaction_logo' />
+      </view>
+      <view class="section">
+        <picker bindchange="bindPickerChangeType" value="{{index_type}}" range="{{array_type}}" range-key="name">
+          <view class="picker">
+            任务类型
+          </view>
+        </picker>
+        <image src='/images/arrow_down.png' class='seaction_logo' />
+      </view>
+      <view class="section">
+        <picker bindchange="bindPickerChangeStatus" value="{{index_status}}" range="{{array_status}}" range-key="name">
+          <view class="picker">
+            任务状态
+          </view>
+        </picker>
+        <image src='/images/arrow_down.png' class='seaction_logo' />
+      </view>
+    </view>
+    <!-- select条件部分  结束 -->
+    <!-- 活动、任务列表部分  开始 -->
+    <view class='activity_list' >
+      <view style='padding:0 15rpx;' >
+        <view class='activity_item' >
+          <view class='activity_item_top'>
+            <image src='/images/activity_img_1.jpg' class='item_top_img'/>
+            <text class='item_name'>广州巡防</text>
+            <text class='item_time' >2019-4-26 14:20:00</text>
+            <text class='item_area' >万盛苑(广州市荔湾区芳村大道...)</text>
+            <text class='item_num'>已报11人</text>
+          </view>
+        </view>
+        <view class='activity_item' >
+          <view class='activity_item_top'>
+            <image src='/images/activity_img_1.jpg' class='item_top_img'/>
+            <text class='item_name'>广州巡防</text>
+            <text class='item_time' >2019-4-26 14:20:00</text>
+            <text class='item_area' >万盛苑(广州市荔湾区芳村大道...)</text>
+            <text class='item_num'>已报11人</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <!-- 活动、任务列表部分  结束 -->
+    <!-- 左下角固定框  开始 -->
+    <view class='sign' >
+      <image catchtap='' src="/images/sign.png" class='sign_img' />
+      <text>发起活动</text>
+    </view>
+    <view class='me_activity' >
+      <image catchtap='' src="/images/me.png" class='sign_img' />
+      <text>我的活动</text>
+    </view>
+    <!-- 左下角固定框  结束 -->
+  </view>
+
+</view>

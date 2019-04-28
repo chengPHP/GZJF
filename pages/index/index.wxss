@@ -1,0 +1,69 @@
+/**index.wxss**/
+/* 首页轮播图部分 */
+page{
+  font-color:#333;
+}
+.slide-image{
+  width: 100%;
+}
+/* 首页公告展示部分 */
+.notice{
+  margin: 15rpx 0;
+  width: 100%;
+}
+.notice .notice_img{
+  width: 100%;
+  max-height: 300rpx;
+}
+/* tab列表部分 */
+.tab_view{
+  width: 100%;
+  /* margin: 15rpx 0; */
+}
+.tab_list{
+  width: 100%;
+  display: flex;
+  padding-bottom: 50rpx;
+}
+.tab_list .tab_item{
+  /* float: left; */
+  display: inline-block;
+  overflow: auto;
+  text-align: center;
+  width: 25%;
+  padding: 10rpx 2%;
+  /* border: 1rpx solid red; */
+}
+.tab_list .tab_item .tab_img{
+  width: 130rpx;
+  height: 130rpx;
+}
+.tab_list .tab_item text{
+  display: block;
+  font-size:32rpx;
+  color: #333;
+}
+/* 签到悬浮 */
+.sign{
+  position: fixed;
+  display: flex;
+  background-color: #fff;
+  right: 0;
+  bottom: 100rpx;
+  /* border: 1rpx solid red; */
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  z-index: 1000;
+  padding: 20rpx 10rpx;
+  font-size: 24rpx;
+  box-shadow: 0rpx 0rpx 20rpx #666;
+}
+.sign .sign_img{
+  width: 30rpx;
+  height: 30rpx;
+  padding: 0rpx 20rpx 0rpx 5rpx;
+}
+.sign text{
+  display: inline-block;
+
+}

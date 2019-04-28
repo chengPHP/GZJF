@@ -1,0 +1,45 @@
+<!--活动报名列表-->
+<!-- <view>活动报名列表</view> -->
+<view class='content' >
+  <text class='title' >报名列表</text>
+  <view class='user_item' >
+    <image class='user_info' src="/images/icon.png" />
+    <text class='user_name' >奋斗 华仔</text>
+    <text class='user_time' >2019-04-27 08:08</text>
+  </view>
+  <view class='user_item' >
+    <image class='user_info' src="/images/icon.png" />
+    <text class='user_name' >奋斗 华仔</text>
+    <text class='user_time' >2019-04-27 08:08</text>
+  </view>
+  <view class='user_item' >
+    <image class='user_info' src="/images/icon.png" />
+    <text class='user_name' >奋斗 华仔</text>
+    <text class='user_time' >2019-04-27 08:08</text>
+  </view>
+  <view class='user_item' >
+    <image class='user_info' src="/images/icon.png" />
+    <text class='user_name' >奋斗 华仔</text>
+    <text class='user_time' >2019-04-27 08:08</text>
+  </view>
+  <view class='user_item' >
+    <image class='user_info' src="/images/icon.png" />
+    <text class='user_name' >奋斗 华仔</text>
+    <text class='user_time' >2019-04-27 08:08</text>
+  </view>
+  <view class='user_item' >
+    <image class='user_info' src="/images/icon.png" />
+    <text class='user_name' >奋斗 华仔</text>
+    <text class='user_time' >2019-04-27 08:08</text>
+  </view>
+  <view class='user_item' >
+    <image class='user_info' src="/images/icon.png" />
+    <text class='user_name' >奋斗 华仔</text>
+    <text class='user_time' >2019-04-27 08:08</text>
+  </view>
+  <view class='user_item' >
+    <image class='user_info' src="/images/icon.png" />
+    <text class='user_name' >奋斗 华仔</text>
+    <text class='user_time' >2019-04-27 08:08</text>
+  </view>
+</view>

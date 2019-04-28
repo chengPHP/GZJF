@@ -1,0 +1,52 @@
+<!-- 我的积分 pages/Integral/Integral.wxml-->
+<view class='content' >
+  <view class='top' >
+    <image src='/images/jifen.png' />
+    <text>100积分</text>
+  </view>
+
+    
+
+  <view class='item_list' >
+    <text class='item_list_title' >积分记录</text>
+    <view class='item' >
+      <view class='item_left' >
+        <text>每日签到</text>
+        <text>2019-04-28 22:19:16</text>
+      </view>
+      <view class='item_right' >
+        <text>+1</text>
+      </view>
+    </view>
+
+    <view class='item' >
+      <view class='item_left' >
+        <text>每日签到</text>
+        <text>2019-04-28 22:19:16</text>
+      </view>
+      <view class='item_right' >
+        <text>+1</text>
+      </view>
+    </view>
+
+    <view class='item' >
+      <view class='item_left' >
+        <text>每日签到</text>
+        <text>2019-04-28 22:19:16</text>
+      </view>
+      <view class='item_right' >
+        <text>+1</text>
+      </view>
+    </view>
+
+    <view class='item' >
+      <view class='item_left' >
+        <text>每日签到</text>
+        <text>2019-04-28 22:19:16</text>
+      </view>
+      <view class='item_right' >
+        <text>+1</text>
+      </view>
+    </view>
+  </view>
+</view>

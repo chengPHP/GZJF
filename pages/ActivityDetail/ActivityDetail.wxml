@@ -1,0 +1,104 @@
+<!--pages/ActivityDetail/ActivityDetail.wxml-->
+<view class='content' >
+  <!-- 详情头图 -->
+  <image class='top_img'  src='/images/activity_img.jpg'/>
+  <!-- 标题部分  开始 -->
+  <view clnotice_img
+  
+  
+  
+   ass='top_title' >
+    <!-- 左 -->
+    <view class='top_title_left' >
+      <view class='top_title_left_top' >
+        <text class='top_title_left_status'>进行中</text>
+        <text class='top_title_left_name'>广佛巡防</text>
+      </view>
+      <view class='top_title_left_top' >
+        <image class='look_icon' src='/images/browse.png'/>
+        <text class='look_num' >46</text>
+        <text class='sign'>报名:11/20</text>
+      </view>
+    </view>
+    <!-- 右 -->
+    <view class='top_title_right' >
+      <view class='title_right_left' >
+        <image src='/images/zan.png' />
+        <text>点赞(4)</text>
+      </view>
+      <view class='title_right_right' >
+        <image src='/images/forward.png' />
+        <text>转发2</text>
+      </view>
+    </view>
+  </view>
+  <!-- 标题部分  结束 -->
+  <!-- 详情内容部分 -->
+  <!-- tabBar部分 -->
+  <view class='tabbar_view' >
+    <view bindtap='tabItemShow' data-id="1" class="{{active_index==1?'tab_item tab_item_select':'tab_item'}}" style='border-right: 1rpx solid #efefef;'>
+      <text class='tab_item_title'>详情</text>
+    </view>
+    <view bindtap='tabItemShow' data-id="2" class="{{active_index==2?'tab_item tab_item_select':'tab_item'}}" >
+      <text class='tab_item_title'>评论(134)</text>
+    </view>
+  </view>
+
+  <!--  -->
+  <view class="{{active_index == 1 ? 'tabItem tab_item_show':'tabItem'}}" >
+    <view class='tab_item_title' >
+      <view class='item_title_icon'></view>
+      <text class='item_title_name'>参与情况</text>
+    </view>
+    <view class='item_sign' catchtap='toEnrollList' >
+      <text class='sign_up' >已报名(<text style='color:#4395FF;' >12</text>)</text>
+      <text class='look_over' >查看全部</text>
+    </view>
+    <view class='item_sign' >
+      <text class='sign_up' >已签到(<text style='color:#4395FF;' >7</text>)</text>
+      <text class='look_over' >查看全部</text>
+    </view>
+    <view class='tab_item_title' >
+      <view class='item_title_icon'></view>
+      <text class='item_title_name'>活动信息</text>
+    </view>
+    <view class='info_detail' >
+      <text>活动主题：广佛巡防</text>
+      <text>活动时间：2019-4-26 14:20-2019-04-27 14:10</text>
+      <text>所属群组：广州如意平安骑队</text>
+      <text>活动类型：巡防</text>
+      <text>签到范围：99.00KM</text>
+      <text>所属区域：荔湾区</text>
+      <text>活动地点：万盛苑(广州市荔湾区芳村大道中560号)</text>
+    </view>
+    <view class='tab_item_title' >
+      <view class='item_title_icon'></view>
+      <text class='item_title_name'>联系方式</text>
+    </view>
+    <view class='info_detail' >
+      <text>发起人：曹光明</text>
+      <text>手机号：139****8926</text>
+    </view>
+    <view class='tab_item_title' >
+      <view class='item_title_icon'></view>
+      <text class='item_title_name'>活动介绍</text>
+    </view>
+    <view class='info_detail' >
+      <text>巡防过程配套骑备，注意安全</text>
+    </view>
+
+    <!-- 评论 报名 -->
+    <view class='detail_bottom' >
+      <view class='comment_input' >
+        <input type='text' placeholder='发表评论'  />
+      </view>
+      <view class='sign_view'>我要报名</view>
+    </view>
+  </view>
+  
+  <view class="{{active_index == 2 ? 'tabItem tab_item_show':'tabItem'}}" >
+
+    <view class='comment_item' ></view>
+
+  </view>
+</view>
