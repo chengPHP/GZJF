@@ -7,7 +7,7 @@
 
 var domain = "此处写后台接口url";
 
-var prefix = '/api/v1';
+var prefix = '/api';
 
 var host = domain + prefix;
 
