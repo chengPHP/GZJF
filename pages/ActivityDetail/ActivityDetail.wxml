@@ -3,11 +3,7 @@
   <!-- 详情头图 -->
   <image class='top_img'  src='/images/activity_img.jpg'/>
   <!-- 标题部分  开始 -->
-  <view clnotice_img
-  
-  
-  
-   ass='top_title' >
+  <view class='top_title' >
     <!-- 左 -->
     <view class='top_title_left' >
       <view class='top_title_left_top' >
