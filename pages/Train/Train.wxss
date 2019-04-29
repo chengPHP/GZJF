@@ -1,0 +1,94 @@
+/* pages/Train/Train.wxss */
+.main{
+  display: flex;
+  flex-direction: row;
+  position: relative;  
+  width: 100%;  
+  height: 100%;  
+}
+
+/*左栏css样式  */
+.left{
+  display: inline-block;
+  width: 25%;
+  height: 100vh; 
+  overflow-y: scroll;
+  font-size: 28rpx;
+  color: #535353;
+  background-color: #f9f9f9;
+}
+
+.left_item{
+  border: 1rpx solid #ccc;
+  border-top: none;
+  text-align: center;
+  padding: 20rpx 0;
+}
+.active{
+  border-left: 5rpx solid red;
+  background-color: #fff;
+  color: red;
+  border-right: none;
+}
+
+
+
+/*右栏css样式  */
+.right{
+  width: 75%;
+  /* height: 100vh; */
+  overflow-y: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-left: 1rpx solid #efefef;
+}
+
+.items{
+   display: flex; 
+   flex-wrap: wrap;
+}
+.items_show{
+  display: block;
+}
+.item{
+  width: 100%;
+  height: 150rpx;
+  overflow: auto;
+  /* text-align: center; */
+  /* font-size: 28rpx; */
+  border-bottom: 1rpx solid #efefef;
+}
+
+.item_left{
+  float: left;
+  /* border: 1px solid red; */
+}
+.item_left .item_img{
+  width: 120rpx;
+  height: 120rpx;
+  margin-top:15rpx; 
+  margin-left: 20rpx;
+}
+.item_right{
+  float: left;
+  display: inline-block;
+  height: 140rpx;
+  position: relative;
+  width: 65%;
+  /* border: 1px solid red; */
+  color: #333;
+  font-size: 28rpx;
+  padding-top: 10rpx;
+  padding-left: 20rpx;
+}
+.item_text{
+  display: block;
+}
+.item_right .item_time{
+  display: inline-block;
+  position: absolute;
+  bottom: 10rpx;
+  left: 20rpx;
+  font-size: 24rpx;
+}

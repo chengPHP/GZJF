@@ -1,0 +1,31 @@
+<!-- 培训页面 pages/Train/Train.wxml-->
+<view class='main' >
+  <!--左边栏目  -->
+  <view class='left' >
+    <block wx:for="{{leftArr}}">
+      <view class="left_item {{curNav == item.id ? 'active' : ''}}" catchtap='switchRightTab' data-id="{{item.id}}" >
+        <text>{{item.name}}</text>
+      </view>
+    </block>
+    
+  </view>
+
+  <!--右边展示框  -->
+  <view class='right' >
+    <view class='items' >
+      <block wx:for="{{rightArr}}" >
+        <view class='item' data-id="{{item.id}}" >
+          <view class='item_left' >
+            <image class='item_img' src='{{item.src}}' ></image>
+          </view>
+          <view class='item_right' >
+            <text class='item_text' >{{item.name}}</text>
+            <text class='item_time' >2019-01-10 18:00:49</text>
+          </view>
+        </view>
+      </block>
+      
+    </view>
+  </view>
+</view>
+

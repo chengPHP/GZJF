@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/Train/Train",
     "pages/Information/Information",
     "pages/Feedback/Feedback",
     "pages/me/me",
