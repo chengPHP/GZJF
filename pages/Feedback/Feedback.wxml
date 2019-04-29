@@ -1,0 +1,16 @@
+<!-- 意见反馈 pages/Feedback/Feedback.wxml-->
+<view class='content' >
+  <view class='item_title' >
+    <text class='title_label' >标题</text>
+    <view>
+      <input type='text' placeholder='请输入标题' />
+    </view>
+  </view>
+
+  <view class='item_content' >
+    <view class='content_label' >反馈内容</view>
+    <textarea placeholder='请输入反馈内容' ></textarea>
+  </view>
+</view>
+
+<button class='sub_btn'>添  加</button>

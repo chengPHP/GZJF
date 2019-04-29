@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/Information/Information",
+    "pages/Feedback/Feedback",
     "pages/me/me",
     "pages/Integral/Integral",
     "pages/InitiateActivity/InitiateActivity",
@@ -8,7 +10,6 @@
     "pages/ActivityDetail/ActivityDetail",
     "pages/Activity/activity",
     "pages/logs/logs",
-    
     "pages/EnrollList/EnrollList"
     
   ],

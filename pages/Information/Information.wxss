@@ -1,0 +1,78 @@
+/* pages/Information/Information.wxss */
+/* 首页轮播图部分 */
+page{
+  /* background-color: #efefef; */
+  font-color:#333;
+}
+.slide-image{
+  width: 100%;
+}
+
+.list_label{
+  font-size: 32rpx;
+  border-bottom: 1rpx solid #efefef;
+  padding: 30rpx 20rpx;
+}
+
+.item_list{
+  /* border: 1px solid red; */
+  margin-bottom: 60rpx;
+}
+
+.item_list .item{
+  border-bottom: 1px solid #efefef;
+  margin: 20rpx;
+  overflow: auto;
+}
+
+.item_list .item .item_left{
+  /* border: 1px solid yellow; */
+  padding: 10rpx;
+  width: 30%;
+  float: left;
+}
+.item_list .item .item_left image{
+  max-width: 220rpx;
+  max-height: 140rpx;
+  border-radius: 10rpx;
+}
+
+.item_list .item .item_right{
+  float: right;
+  /* border: 1px solid green; */
+  padding: 10rpx;
+  width: 60%;
+  /* overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; */
+}
+.item_right .right_title{
+  display: block;
+  font-size: 32rpx;
+  font-weight: 600;
+  color: #333;
+  /* 容器文本溢出显示省略号 */
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.item_right .right_descr{
+  display: block;
+  font-size: 26rpx;
+  color: #999;
+  padding: 10rpx 0;
+}
+.item_right_time{
+  overflow: auto;
+}
+.item_right_time text{
+  font-size: 26rpx;
+  color: #999;
+  /* display: block; */
+}
+.item_right_time .time{
+  float: left;
+}
+.item_right_time .read_num{
+  float: right;
+}

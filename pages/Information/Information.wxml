@@ -1,0 +1,74 @@
+<!-- 资讯列表页 pages/Information/Information.wxml-->
+<view class="container">
+  <!-- 轮播图  开始 -->
+  <swiper
+    indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}"
+    interval="{{interval}}"
+    duration="{{duration}}"
+  >
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image catchtap='toArticleInfo' data-article-id="{{item.article_id}}" src="{{item.imgUrl}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+
+  <view class='list_label' >特别推荐</view>
+
+  <view class='item_list' >
+    <view class='item' >
+      <view class='item_left' >
+        <image src='/images/activity_img.jpg' />
+      </view>
+      <view class='item_right' >
+        <text class='right_title' >预告 | @广州街坊，2019“反恐防恐”</text>
+        <text class='right_descr'>更多惊喜等着你！</text>
+        <view class='item_right_time' >
+          <text class='time' >2019-04-29 18:18:36</text>
+          <text class='read_num' >4阅读</text>
+        </view>
+      </view>
+    </view>
+    <view class='item' >
+      <view class='item_left' >
+        <image src='/images/activity_img.jpg' />
+      </view>
+      <view class='item_right' >
+        <text class='right_title' >预告 | @广州街坊，2019“反恐防恐”</text>
+        <text class='right_descr'>更多惊喜等着你！</text>
+        <view class='item_right_time' >
+          <text class='time' >2019-04-29 18:18:36</text>
+          <text class='read_num' >4阅读</text>
+        </view>
+      </view>
+    </view>
+    <view class='item' >
+      <view class='item_left' >
+        <image src='/images/activity_img.jpg' />
+      </view>
+      <view class='item_right' >
+        <text class='right_title' >预告 | @广州街坊，2019“反恐防恐”</text>
+        <text class='right_descr'>更多惊喜等着你！</text>
+        <view class='item_right_time' >
+          <text class='time' >2019-04-29 18:18:36</text>
+          <text class='read_num' >4阅读</text>
+        </view>
+      </view>
+    </view>
+    <view class='item' >
+      <view class='item_left' >
+        <image src='/images/activity_img.jpg' />
+      </view>
+      <view class='item_right' >
+        <text class='right_title' >预告 | @广州街坊，2019“反恐防恐”</text>
+        <text class='right_descr'>更多惊喜等着你！</text>
+        <view class='item_right_time' >
+          <text class='time' >2019-04-29 18:18:36</text>
+          <text class='read_num' >4阅读</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  </view>
