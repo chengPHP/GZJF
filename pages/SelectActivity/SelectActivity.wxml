@@ -1,0 +1,34 @@
+<!-- 精选活动列表 pages/SelectActivity/SelectActivity.wxml-->
+<view class='conent' >
+
+  <view class='item_list' >
+      <view class='item' >
+        <view class='item_left' >
+          <image src='/images/activity_img.jpg' />
+        </view>
+        <view class='item_right' >
+          <text class='right_title' >预告 | @广州街坊，2019“反恐防恐”</text>
+          <text class='right_grade' >市级</text>
+          <text class='right_time'>2019-04-29 18:18:36</text>
+          <view class='item_right_address' >
+            <text class='address' >地址：广东省广州市番禺区莲塘路2号</text>
+          </view>
+          <image class='selected'  src='/images/jingxuan.jpg' />
+        </view>
+      </view>
+      <view class='item' >
+        <view class='item_left' >
+          <image src='/images/activity_img.jpg' />
+        </view>
+        <view class='item_right' >
+          <text class='right_title' >预告 | @广州街坊，2019“反恐防恐”</text>
+          <text class='right_grade' >市级</text>
+          <text class='right_time'>2019-04-29 18:18:36</text>
+          <view class='item_right_address' >
+            <text class='address' >地址：广东省广州市番禺区莲塘路2号</text>
+          </view>
+        </view>
+      </view>
+    </view>
+
+</view>

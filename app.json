@@ -1,18 +1,19 @@
 {
   "pages": [
+    "pages/More/More",
     "pages/index/index",
     "pages/me/me",
     "pages/Integral/Integral",
     "pages/InitiateActivity/InitiateActivity",
     "pages/UserInfo/UserInfo",
-    
     "pages/ActivityDetail/ActivityDetail",
     "pages/Activity/activity",
     "pages/logs/logs",
     "pages/EnrollList/EnrollList",
     "pages/Train/Train",
     "pages/Information/Information",
-    "pages/Feedback/Feedback"
+    "pages/Feedback/Feedback",
+    "pages/SelectActivity/SelectActivity"
     
   ],
   "window": {

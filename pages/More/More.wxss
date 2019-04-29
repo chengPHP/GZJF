@@ -1,0 +1,32 @@
+/* pages/More/More.wxss */
+.page{
+  /* background-color:  */
+}
+/* tab列表部分 */
+.tab_view{
+  width: 100%;
+  /* margin: 15rpx 0; */
+}
+.tab_list{
+  width: 100%;
+  display: flex;
+  padding-bottom: 50rpx;
+}
+.tab_list .tab_item{
+  /* float: left; */
+  display: inline-block;
+  overflow: auto;
+  text-align: center;
+  width: 25%;
+  padding: 10rpx 2%;
+  /* border: 1rpx solid red; */
+}
+.tab_list .tab_item .tab_img{
+  width: 130rpx;
+  height: 130rpx;
+}
+.tab_list .tab_item text{
+  display: block;
+  font-size:32rpx;
+  color: #333;
+}

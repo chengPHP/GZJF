@@ -40,7 +40,7 @@
       </view>
     </view>
     <view class="tab_list" >
-      <view class='tab_item' catchtap='toTabUrl' data-tab-id='1'>
+      <view class='tab_item' catchtap='toTabUrl' data-tab-url='/pages/Information/Information'>
         <image  src="/images/icon.png" class="tab_img" />
         <text>资讯</text>
       </view>

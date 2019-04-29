@@ -29,9 +29,11 @@ Page({
       url: 'https://www.baidu.com'
     }
   },
-  toTabUrl:function(){
-    wx.switchTab({
-      url: '/pages/Activity/activity'
+  toTabUrl:function(e){
+    let url = e.currentTarget.dataset.tabUrl;
+    console.log(url);
+    wx.navigateTo({
+      url: url
     })
   },
   //事件处理函数
