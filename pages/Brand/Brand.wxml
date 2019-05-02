@@ -1,0 +1,334 @@
+<!-- 品牌 群组 pages/Brand/Brand.wxml-->
+
+<view class='content' >
+  <!-- 头部tabBar部分  开始 -->
+  <view class='tabbar_view' >
+    <view bindtap='tabItemShow' data-id="1" class="{{active_index==1?'tab_item tab_item_select':'tab_item'}}" style='border-right: 1rpx solid #efefef;'>
+      <image src='/images/icon.png' class='tab_item_icon' />
+      <text class='tab_item_title'>品牌</text>
+    </view>
+    <view bindtap='tabItemShow' data-id="2" class="{{active_index==2?'tab_item tab_item_select':'tab_item'}}" >
+      <image src='/images/icon.png' class='tab_item_icon' />
+      <text class='tab_item_title'>群组</text>
+    </view>
+  </view>
+  <view class="{{active_index == 1 ? 'tabItem tab_item_show':'tabItem'}}" >
+    <!-- 头部tabBar部分  结束 -->
+    <!-- 搜索部分  开始 -->
+    <view class='search' >
+      <image class='search_img' src="/images/search.png" />
+      <input class='search_input' type="text" name="activ_name" value="{{activ_name}}" placeholder=" 品牌搜索" />
+      <text>搜索</text>
+    </view>
+    <!-- 搜索部分  结束 -->
+    <!-- title -->
+    <view class='page_title' >品牌群组</view>
+    <!-- 活动、任务列表部分  开始 -->
+    <!-- 推荐群组  开始 -->
+    <view class='recommend_list' >
+      <view class='recommend_item' >
+        <image src='/images/icon.png' class='recommend_item_img' />
+        <text class='item_brand_name' >广州如意平安骑队</text>
+        <view class='item_info_list' >
+          <view class='item_info_item' >
+            <text class='item_info_item_num' >1122</text>
+            <text class='item_info_item_label' >成员</text>
+          </view>
+          <view class='item_info_item' >
+            <text class='item_info_item_num' >1122</text>
+            <text class='item_info_item_label' >活动</text>
+          </view>
+          <view class='item_info_item' >
+            <text class='item_info_item_num' >1122</text>
+            <text class='item_info_item_label' >人气</text>
+          </view>
+        </view>
+        <view class='like_dianzan' >
+          <image src='/images/icon.png' class='dianzan_icon' />
+          <text>点赞(13)</text>
+        </view>
+      </view>
+      <view class='recommend_item' >
+        <image src='/images/icon.png' class='recommend_item_img' />
+        <text class='item_brand_name' >广州如意平安骑队</text>
+        <view class='item_info_list' >
+          <view class='item_info_item' >
+            <text class='item_info_item_num' >1122</text>
+            <text class='item_info_item_label' >成员</text>
+          </view>
+          <view class='item_info_item' >
+            <text class='item_info_item_num' >1122</text>
+            <text class='item_info_item_label' >活动</text>
+          </view>
+          <view class='item_info_item' >
+            <text class='item_info_item_num' >1122</text>
+            <text class='item_info_item_label' >人气</text>
+          </view>
+        </view>
+        <view class='like_dianzan' >
+          <image src='/images/icon.png' class='dianzan_icon' />
+          <text>点赞(13)</text>
+        </view>
+      </view>
+      <view class='recommend_item' >
+        <image src='/images/icon.png' class='recommend_item_img' />
+        <text class='item_brand_name' >广州如意平安骑队</text>
+        <view class='item_info_list' >
+          <view class='item_info_item' >
+            <text class='item_info_item_num' >1122</text>
+            <text class='item_info_item_label' >成员</text>
+          </view>
+          <view class='item_info_item' >
+            <text class='item_info_item_num' >1122</text>
+            <text class='item_info_item_label' >活动</text>
+          </view>
+          <view class='item_info_item' >
+            <text class='item_info_item_num' >1122</text>
+            <text class='item_info_item_label' >人气</text>
+          </view>
+        </view>
+        <view class='like_dianzan' >
+          <image src='/images/icon.png' class='dianzan_icon' />
+          <text>点赞(13)</text>
+        </view>
+      </view>
+    </view>
+    <!-- 榜单分类 -->
+    <view class='tabbar_view' style='border:none;margin:15rpx 0;' >
+      <view class="tab_item" style='border-right:1rpx solid #efefef;'>
+        <image src='/images/icon.png' class='tab_item_icon' />
+        <text class='tab_item_title'>周榜单</text>
+      </view>
+      <view class="tab_item">
+        <image src='/images/icon.png' class='tab_item_icon' />
+        <text class='tab_item_title'>月榜单</text>
+      </view>
+    </view>
+    <!-- 榜单分类  结束 -->
+    <!-- title -->
+    <view class='page_title' style='margin:10rpx 0;' >街坊推荐</view>
+    <!-- 活动、任务列表部分  开始 -->
+    <!-- 推荐群组  开始 -->
+    <view class='jiefang_list' >
+      <view class='jiefang_item'>
+        <image src='/images/icon.png' class='jiefang_item_img' />
+        <text class='item_brand_name' >平安海珠</text>
+      </view>
+      <view class='jiefang_item'>
+        <image src='/images/icon.png' class='jiefang_item_img' />
+        <text class='item_brand_name' >扫黑除恶</text>
+      </view>
+      <view class='jiefang_item'>
+        <image src='/images/icon.png' class='jiefang_item_img' />
+        <text class='item_brand_name' >智慧调解</text>
+      </view>
+    </view>
+    <!-- 推荐群组  结束 -->
+    <!-- 品牌群组列表 开始 -->
+    <view class='activity_list' >
+      <view class='page_title'>品牌群组</view>
+      <view class='item_list' >
+        <view class='item' >
+          <view class='item_left' >
+            <image src='/images/activity_img.jpg' />
+          </view>
+          <view class='item_right' >
+            <text class='right_title' >东涌镇平安小卫士</text>
+            <text class='right_grade' >平安小卫士</text>
+            <text class='right_time'>2844成员 7活动 2866人气</text>
+            <!-- <view class='item_right_address' >
+              <text class='address' >地址：广东省广州市番禺区莲塘路2号</text>
+            </view> -->
+          </view>
+          <view class='item_dianzan' >
+            <image src="/images/icon.png" class='zan_icon' />
+            <text>点赞(2)</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <!-- 品牌群组列表  结束 -->
+    <!-- 左下角固定框  开始 -->
+    <view class='sign' >
+      <image catchtap='' src="/images/sign.png" class='sign_img' />
+      <text>发起群组</text>
+    </view>
+    <view class='me_activity' >
+      <image catchtap='' src="/images/me.png" class='sign_img' />
+      <text>我的群组</text>
+    </view>
+    <!-- 左下角固定框  结束 -->
+  </view>
+
+
+
+  <view class="{{active_index == 2 ? 'tabItem tab_item_show':'tabItem'}}" >
+    <!-- 头部tabBar部分  结束 -->
+    <!-- 搜索部分  开始 -->
+    <view class='search' >
+      <image class='search_img' src="/images/search.png" />
+      <input class='search_input' type="text" name="activ_name" value="{{activ_name}}" placeholder=" 群组搜索" />
+      <text>搜索</text>
+    </view>
+    <!-- 搜索部分  结束 -->
+    
+    <!-- 品牌群组列表 开始 -->
+    <view class='activity_list' >
+      <!-- 每周推荐标题  开始 -->
+      <view class='page_title' style='border: 1rpx solid #efefef;'>每周推荐</view>
+      <!-- 每周推荐标题  结束 -->
+      <view class='item_list' >
+        <view class='item' >
+          <view class='item_left' >
+            <image src='/images/activity_img.jpg' />
+          </view>
+          <view class='item_right' >
+            <text class='right_title' >东涌镇平安小卫士</text>
+            <text class='right_grade' >平安小卫士</text>
+            <text class='right_time'>2844成员 7活动 2866人气</text>
+            <!-- <view class='item_right_address' >
+              <text class='address' >地址：广东省广州市番禺区莲塘路2号</text>
+            </view> -->
+          </view>
+          <view class='item_dianzan' >
+            <image src="/images/icon.png" class='zan_icon' />
+            <text>点赞(2)</text>
+          </view>
+        </view>
+      </view>
+      <!-- 三张图片 -->
+      <view class='img_list' >
+        <image class='img_item' src='/images/activity_img.jpg' />
+        <image class='img_item' src='/images/activity_img.jpg' />
+        <image class='img_item' src='/images/activity_img.jpg' />
+      </view>
+      <text class='recommend_reason' >推荐理由：广泛发动群防共治力量，积极开展社会治安巡防、防诈骗等活动，落实好社会整体防控各项措施</text>
+    </view>
+    <view class='activity_list' >
+      <!-- 每周推荐标题  开始 -->
+      <!-- <view class='page_title' style='border: 1rpx solid #efefef;'>每周推荐</view> -->
+      <!-- 每周推荐标题  结束 -->
+      <view class='item_list' >
+        <view class='item' >
+          <view class='item_left' >
+            <image src='/images/activity_img.jpg' />
+          </view>
+          <view class='item_right' >
+            <text class='right_title' >东涌镇平安小卫士</text>
+            <text class='right_grade' >平安小卫士</text>
+            <text class='right_time'>2844成员 7活动 2866人气</text>
+            <!-- <view class='item_right_address' >
+              <text class='address' >地址：广东省广州市番禺区莲塘路2号</text>
+            </view> -->
+          </view>
+          <view class='item_dianzan' >
+            <image src="/images/icon.png" class='zan_icon' />
+            <text>点赞(2)</text>
+          </view>
+        </view>
+      </view>
+      <!-- 三张图片 -->
+      <view class='img_list' >
+        <image class='img_item' src='/images/activity_img.jpg' />
+        <image class='img_item' src='/images/activity_img.jpg' />
+        <image class='img_item' src='/images/activity_img.jpg' />
+      </view>
+      <text class='recommend_reason' >推荐理由：广泛发动群防共治力量，积极开展社会治安巡防、防诈骗等活动，落实好社会整体防控各项措施</text>
+    </view>
+    <!-- 品牌群组列表  结束 -->
+    <!-- title -->
+    <view class='page_title' style='margin:10rpx 0;' >街坊推荐</view>
+    <!-- 活动、任务列表部分  开始 -->
+    <!-- 推荐群组  开始 -->
+    <view class='jiefang_list' >
+      <view class='jiefang_item'>
+        <image src='/images/icon.png' class='jiefang_item_img' />
+        <text class='item_brand_name' >人气群组</text>
+      </view>
+      <view class='jiefang_item'>
+        <image src='/images/icon.png' class='jiefang_item_img' />
+        <text class='item_brand_name' >新进群组</text>
+      </view>
+      <view class='jiefang_item'>
+        <image src='/images/icon.png' class='jiefang_item_img' />
+        <text class='item_brand_name' >猜你喜欢</text>
+      </view>
+      <view class='jiefang_item'>
+        <image src='/images/icon.png' class='jiefang_item_img' />
+        <text class='item_brand_name' >更多分类</text>
+      </view>
+    </view>
+    <!-- 推荐群组  结束 -->
+    <!-- 品牌群组列表 开始 -->
+    <view class='activity_list' >
+      <!-- <view class='page_title'>品牌群组</view> -->
+      <view class='item_list' >
+        <view class='item' >
+          <view class='item_left' >
+            <image src='/images/activity_img.jpg' />
+          </view>
+          <view class='item_right' >
+            <text class='right_title' >东涌镇平安小卫士</text>
+            <text class='right_grade' >平安小卫士</text>
+            <text class='right_time'>2844成员 7活动 2866人气</text>
+            <!-- <view class='item_right_address' >
+              <text class='address' >地址：广东省广州市番禺区莲塘路2号</text>
+            </view> -->
+          </view>
+          <view class='item_dianzan' >
+            <image src="/images/icon.png" class='zan_icon' />
+            <text>点赞(2)</text>
+          </view>
+        </view>
+        <view class='item' >
+          <view class='item_left' >
+            <image src='/images/activity_img.jpg' />
+          </view>
+          <view class='item_right' >
+            <text class='right_title' >东涌镇平安小卫士</text>
+            <text class='right_grade' >平安小卫士</text>
+            <text class='right_time'>2844成员 7活动 2866人气</text>
+            <!-- <view class='item_right_address' >
+              <text class='address' >地址：广东省广州市番禺区莲塘路2号</text>
+            </view> -->
+          </view>
+          <view class='item_dianzan' >
+            <image src="/images/icon.png" class='zan_icon' />
+            <text>点赞(2)</text>
+          </view>
+        </view>
+        <view class='item' >
+          <view class='item_left' >
+            <image src='/images/activity_img.jpg' />
+          </view>
+          <view class='item_right' >
+            <text class='right_title' >东涌镇平安小卫士</text>
+            <text class='right_grade' >平安小卫士</text>
+            <text class='right_time'>2844成员 7活动 2866人气</text>
+            <!-- <view class='item_right_address' >
+              <text class='address' >地址：广东省广州市番禺区莲塘路2号</text>
+            </view> -->
+          </view>
+          <view class='item_dianzan' >
+            <image src="/images/icon.png" class='zan_icon' />
+            <text>点赞(2)</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <!-- 品牌群组列表  结束 -->
+
+    
+    <!-- 左下角固定框  开始 -->
+    <view class='sign' >
+      <image catchtap='' src="/images/sign.png" class='sign_img' />
+      <text>发起群组</text>
+    </view>
+    <view class='me_activity' >
+      <image catchtap='' src="/images/me.png" class='sign_img' />
+      <text>我的群组</text>
+    </view>
+    <!-- 左下角固定框  结束 -->
+  </view>
+
+</view>
