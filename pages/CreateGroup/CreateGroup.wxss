@@ -1,0 +1,146 @@
+/* pages/CreateGroup/CreateGroup.wxss */
+page{
+  background-color: #efefef;
+}
+.content{
+  background-color: #fff;
+  padding-bottom: 100rpx;
+}
+
+.list_item{
+  width: 100%;
+  /* border: 1px solid red; */
+  overflow: auto;
+  font-size: 28rpx;
+  color: #333;
+  height: 80rpx;
+  /* padding: 10rpx 0; */
+  border-bottom: 1rpx solid #efefef;
+}
+.list_item .item_label{
+  float: left;
+  width: 25%;
+  /* border: 1px solid blue; */
+  /* text-align: center; */
+  padding-left: 30rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.list_item .item_label text{
+  font-weight: 600;
+}
+.list_item .item_right{
+  float: left;
+  width: 65%;
+  /* border: 1px solid yellow; */
+  height: 80rpx;
+  line-height: 80rpx;
+}
+
+.list_item .item_right input{
+  width: 100%;
+  padding: 15rpx 0;
+  /* border: 1px solid red; */
+}
+.list_item .item_right .input_dis{
+  background-color: #cfcfcf;
+}
+
+.list_item .item_right .get_number_input{
+  float: left;
+  width: 55%;
+  padding-right: 20rpx;
+  /* border: 1px solid red; */
+}
+.get_number{
+  float: left;
+  width: 35%;
+  height: 50rpx;
+  line-height: 50rpx;
+  margin-top: 15rpx;
+  font-size: 22rpx;
+  color: #fff;
+  background-color: #FF7F27;
+  border: none;
+}
+
+.item_textarea{
+  margin-top: 30rpx;
+  padding-left: 10rpx;
+  width: 100%;
+  background-color: #fff;
+  /* text-align: center; */
+}
+.textarea_label{
+  display: block;
+  width: 100%;
+  padding: 20rpx;
+  font-size: 28rpx;
+  color: #333;
+  /* border: 1px solid red; */
+}
+.item_textarea textarea{
+  width: 100%;
+  font-size: 26rpx;
+  color: #333;
+  padding: 50rpx 20rpx;
+  /* border: 1px solid red; */
+}
+
+.sub_btn{
+  width: 50%;
+  height: 80rpx;
+  /* padding: 10rpx 0; */
+  text-align: center;
+  font-size: 24rpx;
+  color: #fff;
+  background-color: red;
+  line-height: 80rpx;
+  border-radius: 80rpx;
+  margin: 100rpx auto;
+}
+.section{
+  /* width: 33.33%; */
+  display: flex;
+  float: left;
+  color: #666;
+  /* flex-direction: column; */
+  justify-content: center;
+  line-height: 80rpx;
+  font-size: 28rpx;
+}
+
+
+.section1 {
+  display: flex;
+  flex-grow: row no-wrap;
+  padding: 15rpx 30rpx;
+  height: 100rpx;
+  /* line-height: 100rpx; */
+  font-size: 28rpx;
+  /* position: relative; */
+  color: #333;
+  border-bottom: 1rpx solid #eee;
+  background-color: #fff;
+}
+.section1 .uploaders text{
+  display: block;
+  height: 40rpx;
+  line-height: 40rpx;
+}
+.section1 .uploader_imgs{
+  width:100rpx;
+  height:100rpx;
+  padding: 0 10rpx;
+}
+
+.section .picker {
+  width: 100%;
+}
+.uploaderBtn{
+  float: right;
+}
+.uploaderBtn image {
+  width: 100rpx;
+  height: 100rpx;
+}

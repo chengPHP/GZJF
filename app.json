@@ -1,12 +1,14 @@
 {
   "pages": [
+    "pages/CreateGroup/CreateGroup",
+    "pages/SignIn/SignIn",
+    "pages/Integral/Integral",
+    "pages/Brand/Brand",
     "pages/BrandList/BrandList",
     "pages/BrandDetail/BrandDetail",
-    "pages/Brand/Brand",
     "pages/More/More",
     "pages/index/index",
     "pages/me/me",
-    "pages/Integral/Integral",
     "pages/InitiateActivity/InitiateActivity",
     "pages/UserInfo/UserInfo",
     "pages/ActivityDetail/ActivityDetail",

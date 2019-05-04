@@ -1,0 +1,121 @@
+/* pages/SignIn/SignIn.wxss */
+page{
+  background-color: #efefef;
+}
+.content{
+  background-color: #fff;
+  margin-bottom: 100rpx;
+}
+
+.top{
+  width: 95%;
+  height: 350rpx;
+  position: relative;
+  /* display: flex; */
+  color: #fff;
+  /* line-height: 250rpx; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  text-align: center;
+  /* padding: 50rpx 20rpx; */
+  background-color: #FF3000;
+}
+.top image{
+  width: 100rpx;
+  height: 100rpx;
+  /* float: left; */
+  margin-top: 30rpx;
+}
+.top view{
+  display: block;
+  font-size: 36rpx;
+}
+.top .sign_btn{
+  background-color: #fff;
+  color: #FF3000;
+  width: 300rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-radius: 80rpx;
+  margin-top: 30rpx;
+  font-weight: 600;
+}
+.top .explain{
+  position: absolute;
+  right: 20rpx;
+  bottom: 40rpx;
+  font-size: 20rpx;
+  color: #fff;
+}
+.item_list{
+  width: 100%;
+  /* border: 1px solid red; */
+  overflow: auto;
+  font-size: 28rpx;
+  color: #333;
+  margin: 20rpx 0;
+  padding: 20rpx 0;
+  background-color: #efefef;
+}
+
+.item_list_title{
+  display: block;
+  background-color: #fff;
+  padding: 20rpx;
+  font-size: 36rpx;
+}
+
+.item_list .item{
+  /* border: 1px solid blue; */
+  overflow: auto;
+  height: 80rpx;
+  padding: 20rpx 10rpx;
+  margin-top: 20rpx;
+  background-color: #fff;
+}
+.item_list .item .item_left{
+  float: left;
+  padding-left: 20rpx;
+}
+.item_list .item .item_left text{
+  display: block;
+}
+.item_list .item .item_right{
+  float: right;
+  /* border: 1px solid red; */
+  overflow: auto;
+  height: 80rpx;
+  line-height: 80rpx;
+  margin-right: 100rpx;
+  color: #EA2000
+}
+
+/* 表格 */
+.table {
+  /* border: 1rpx solid #cfcfcf; */
+  background-color: #fff;
+}
+.tr {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 2rem;
+  align-items: center;
+  font-size: 28rpx;
+}
+.td {
+  width: 40%;
+  justify-content: center;
+  color: #666;
+  display: flex;
+  height: 2rem;
+  align-items: center;
+}
+.th {
+  width: 40%;
+  justify-content: center;
+  color: #666;
+  display: flex;
+  height: 2rem;
+  align-items: center;
+}

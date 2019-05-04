@@ -1,0 +1,100 @@
+<!-- 创建群组 pages/CreateGroup/CreateGroup.wxml-->
+<view class='content' >
+  <view class='list_item' >
+    <view class='item_label' >创建人</view>
+    <view class='item_right' >
+      <input  placeholder='请填写名称' />
+    </view>
+  </view>
+  <view class='list_item' >
+    <view class='item_label' >联系方式</view>
+    <view class='item_right' >
+      <input  placeholder='请输入手机号码' />
+    </view>
+  </view>
+  <view class='list_item' >
+    <view class='item_label' >身份证</view>
+    <view class='item_right' >
+      <input  placeholder='请填写您的身份证号码' />
+    </view>
+  </view>
+  <view class='list_item' >
+    <view class='item_label' >组织机构</view>
+    <view class='item_right' >
+      <input  placeholder='请输入组织机构名称' />
+    </view>
+  </view>
+  <view class='list_item' >
+    <view class='item_label' >群名称</view>
+    <view class='item_right' >
+      <input  placeholder='请输入群组名称' />
+    </view>
+  </view>
+  
+  <view class='list_item' >
+    <view class='item_label' >群标签</view>
+    <view class='item_right' >
+      <view class="section">
+        <picker bindchange="bindPickerChangeArea" value="{{index_area}}" range="{{array_area}}" range-key="name">
+          <view class="picker">
+            {{array_area[index_area].name}}
+          </view>
+        </picker>
+      </view>
+    </view>
+  </view>
+
+  <view class='list_item' >
+    <view class='item_label' >群分类</view>
+    <view class='item_right' >
+      <radio-group class="radio-group" bindchange="radioChange">
+        <label class="radio" >
+          <radio value="1" checked />
+          企业
+        </label>
+        <label class="radio" >
+          <radio value="2" />
+          社团
+        </label>
+        <label class="radio" >
+          <radio value="3" />
+          个人
+        </label>
+      </radio-group>
+    </view>
+  </view>
+
+  <view class='item_textarea' >
+    <text class='textarea_label' >群介绍</text>
+    <textarea bindblur="bindTextAreaBlur" auto-height placeholder="" />
+  </view>
+
+  <view class='section1' >
+    <view class='uploaders' >
+      <text class='uploaders_title' >上传群标志</text>
+    </view>
+    <block wx:for="{{imgs}}" wx:key="property">
+      <image src="{{item}}" class='uploader_imgs' bindtap='imgShow' data-src="{{item}}" data-img-id="{{img_ids[index]}}" bindlongtap="longTap" bindtouchstart="touchStart" bindtouchend="touchEnd" data-index="{{index}}"></image>
+    </block>
+    <view class='uploaderBtn' bindtap='selectImg'>
+      <image wx:if="{{imgs.length<1}}" src='{{uploaderImg}}'></image>
+    </view>
+  </view>
+
+  <view class='section1' >
+    <view class='uploaders' >
+      <text class='uploaders_title' >上传身份证(手持身份证)</text>
+    </view>
+    <block wx:for="{{imgs}}" wx:key="property">
+      <image src="{{item}}" class='uploader_imgs' bindtap='imgShow' data-src="{{item}}" data-img-id="{{img_ids[index]}}" bindlongtap="longTap" bindtouchstart="touchStart" bindtouchend="touchEnd" data-index="{{index}}"></image>
+    </block>
+    <view class='uploaderBtn' bindtap='selectImg'>
+      <image wx:if="{{imgs.length<1}}" src='{{uploaderImg}}'></image>
+    </view>
+  </view>
+
+  
+</view>
+
+<button class='sub_btn' >保存</button>
+

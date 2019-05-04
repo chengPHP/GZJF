@@ -12,8 +12,8 @@
       <text class='tab_item_title'>群组</text>
     </view>
   </view>
+  <!-- 头部tabBar部分  结束 -->
   <view class="{{active_index == 1 ? 'tabItem tab_item_show':'tabItem'}}" >
-    <!-- 头部tabBar部分  结束 -->
     <!-- 搜索部分  开始 -->
     <view class='search' >
       <image class='search_img' src="/images/search.png" />

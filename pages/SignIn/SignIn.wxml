@@ -1,0 +1,24 @@
+<!-- 签到页面 pages/SignIn/SignIn.wxml-->
+<view class='content' >
+  <view class='top' >
+    <image src='/images/jifen.png' />
+    <view>第<text style='font-size:60rpx;font-weight:600;padding:0 30rpx;' >1</text>天</view>
+    <button class='sign_btn' >马上签到</button>
+    <text bindtap='showExplain' class='explain' >签到说明</text>
+  </view>
+  <view class='item_list' >
+    <text class='item_list_title' >积分记录</text>
+    <view class="table">
+      <view class="tr">
+        <view class="th">签到时间</view>
+        <view class="th">积分奖励</view>
+      </view>
+      <view class="tr">
+        <view class="td">2019-05-04 18:19:49</view>
+        <view class="td">+1</view>
+      </view>
+    </view>
+
+  </view>
+</view>
+
