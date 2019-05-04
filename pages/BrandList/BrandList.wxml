@@ -1,0 +1,41 @@
+<!-- 品牌榜单页面 pages/BrandList/BrandList.wxml-->
+<view class='content' >
+  <view class='list_title' >
+    <text class='title_name' >最多参与</text>
+  </view>
+  <view class='list_item' >
+    <text class='num' >1</text>
+    <text class='brand_name' >广州如意平安骑队</text>
+    <view class='item_right' >
+      <text class='right_number' >5512</text>人次
+    </view>
+  </view>
+  <view class='list_item' >
+    <text class='num' >2</text>
+    <text class='brand_name' >广州如意平安骑队</text>
+    <view class='item_right' >
+      <text class='right_number' >5512</text>人次
+    </view>
+  </view>
+  <view class='list_item' >
+    <text class='num' >3</text>
+    <text class='brand_name' >广州如意平安骑队</text>
+    <view class='item_right' >
+      <text class='right_number' >5512</text>人次
+    </view>
+  </view>
+  <view class='list_item' >
+    <text class='num' >4</text>
+    <text class='brand_name' >广州如意平安骑队</text>
+    <view class='item_right' >
+      <text class='right_number' >5512</text>人次
+    </view>
+  </view>
+  <view class='list_item' >
+    <text class='num' >5</text>
+    <text class='brand_name' >广州如意平安骑队</text>
+    <view class='item_right' >
+      <text class='right_number' >5512</text>人次
+    </view>
+  </view>
+</view>
