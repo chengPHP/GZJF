@@ -1,0 +1,141 @@
+<!-- 品牌空间 品牌详情 pages/BrandDetail/BrandDetail.wxml-->
+<view class='content' >
+  <!-- 头部品牌logo -->
+  <view class='top_img' >
+    <image src='/images/icon.png' />
+    <text>广州如意平安骑队(广州市平安建设促进会(荔湾区政法委、石围塘街))</text>
+  </view>
+
+  <view class='item_info_list' >
+    <view class='item_info_item' >
+      <text class='item_info_item_num' >1122</text>
+      <text class='item_info_item_label' >成员数</text>
+    </view>
+    <view class='item_info_item' >
+      <text class='item_info_item_num' >1122</text>
+      <text class='item_info_item_label' >活动数</text>
+    </view>
+    <view class='item_info_item' >
+      <text class='item_info_item_num' >1122</text>
+      <text class='item_info_item_label' >人气数</text>
+    </view>
+  </view>
+
+  <!-- 头部tabBar部分  开始 -->
+  <view class='tabbar_view' >
+    <view bindtap='tabItemShow' data-id="1" class="{{active_index==1?'tab_item tab_item_select':'tab_item'}}" >
+      <text class='tab_item_title'>品牌介绍</text>
+    </view>
+    <view bindtap='tabItemShow' data-id="2" class="{{active_index==2?'tab_item tab_item_select':'tab_item'}}" >
+      <text class='tab_item_title'>活动</text>
+    </view>
+    <view bindtap='tabItemShow' data-id="3" class="{{active_index==3?'tab_item tab_item_select':'tab_item'}}" >
+      <text class='tab_item_title'>精彩瞬间</text>
+    </view>
+  </view>
+  <!-- 头部tabBar部分  结束 -->
+
+  <view class="{{active_index == 1 ? 'tabItem tab_item_show':'tabItem'}}" >
+    <view class='introduce_detail' >广州如意平安骑队，组建于2014年5月1日，基地在荔湾区石围塘街如意社区。由市区政法委和石围塘街综治办指导，广州如意平安骑队，组建于2014年5月1日，基地在荔湾区石围塘街如意社区。由市区政法委和石围塘街综治办指导，广州如意平安骑队，组建于2014年5月1日，基地在荔湾区石围塘街如意社区。由市区政法委和石围塘街综治办指导，</view>
+    <view class='introduce_title' >
+      <text class='title_name' >群组大事记</text>
+    </view>
+    <view class="table">
+      <view class="tr bg-w">
+        <view class="th">序号</view>
+        <view class="th">时间</view>
+        <view class="th ">事记</view>
+      </view>
+      <block wx:for="{{listData}}" wx:key="{{code}}">
+        <view class="tr">
+          <view class="td">{{item.code}}</view>
+          <view class="td">{{item.time}}</view>
+          <view class="td">{{item.type}}</view>
+        </view>
+      </block>
+    </view>
+    <view class='introduce_title' >
+      <text class='title_name' >表彰情况</text>
+    </view>
+  </view>
+  <view class="{{active_index == 2 ? 'tabItem tab_item_show':'tabItem'}}" >
+    <view class='item_list' >
+      <view class='comment_item' >
+        <view class='comment_item_img' >
+          <image src='/images/icon.png' />
+          <view class='comment_user' >
+            <text class='user_name' >Jane</text>
+            <text class='comment_time' >2019-05-04 17:09:37</text>
+          </view>
+          <view class='comment_right' >
+            <!-- <image src='/images/zan.png' />
+            <text>4</text> -->
+            <text>荔湾区</text>
+          </view>
+        </view>
+      </view>
+      <view class='comment_descr' >
+        <text>早上的颁奖</text>
+        <view class='comment_img' >
+          <image src='/images/activity_img.jpg' />
+        </view>
+      </view>
+      <view class='top_title_right' >
+        <view class='title_right_right' >
+          <image src='/images/forward.png' />
+          <text>2</text>
+        </view>
+        <view class='title_right_right' >
+          <image src='/images/forward.png' />
+          <text>2</text>
+        </view>
+        <view class='title_right_right' >
+          <image src='/images/zan.png' />
+          <text>2</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="{{active_index == 3 ? 'tabItem tab_item_show':'tabItem'}}" >
+    <view class='item_list' >
+      <view class='comment_item' >
+        <view class='comment_item_img' >
+          <image src='/images/icon.png' />
+          <view class='comment_user' >
+            <text class='user_name' >Jane</text>
+            <text class='comment_time' >2019-05-04 17:09:37</text>
+          </view>
+          <!-- <view class='comment_right' >
+            <image src='/images/zan.png' />
+            <text>4</text>
+            <text>荔湾区</text>
+          </view> -->
+        </view>
+      </view>
+      <view class='comment_descr' >
+        <text>早上的颁奖</text>
+        <view class='comment_imgs' >
+          <image src='/images/activity_img.jpg' />
+          <image src='/images/activity_img.jpg' />
+          <image src='/images/activity_img.jpg' />
+        </view>
+      </view>
+      <view class='top_title_right' >
+        <view class='title_right_right' >
+          <image src='/images/forward.png' />
+          <text>2</text>
+        </view>
+        <view class='title_right_right' >
+          <image src='/images/forward.png' />
+          <text>2</text>
+        </view>
+        <view class='title_right_right' >
+          <image src='/images/zan.png' />
+          <text>2</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  
+</view>

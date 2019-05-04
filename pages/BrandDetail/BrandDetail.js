@@ -1,17 +1,15 @@
-// pages/ActivityDetail/ActivityDetail.js
+// pages/BrandDetail/BrandDetail.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    active_index: 2,
-  },
-
-  toEnrollList: function (e) {
-    wx.navigateTo({
-      url: '/pages/EnrollList/EnrollList',
-    })
+    active_index: 3,
+    listData: [
+      { "code": "1", "time": "2019-01-17", "type": "type1" },
+      { "code": "2", "time": "2019-04-20", "type": "type2" },
+    ]
   },
 
   tabItemShow: function (e) {

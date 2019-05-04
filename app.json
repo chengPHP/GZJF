@@ -1,5 +1,7 @@
 {
   "pages": [
+    
+    "pages/BrandDetail/BrandDetail",
     "pages/Brand/Brand",
     "pages/More/More",
     "pages/index/index",
@@ -8,6 +10,7 @@
     "pages/InitiateActivity/InitiateActivity",
     "pages/UserInfo/UserInfo",
     "pages/ActivityDetail/ActivityDetail",
+    
     "pages/Activity/activity",
     "pages/logs/logs",
     "pages/EnrollList/EnrollList",
@@ -15,7 +18,6 @@
     "pages/Information/Information",
     "pages/Feedback/Feedback",
     "pages/SelectActivity/SelectActivity"
-    
   ],
   "window": {
     "backgroundTextStyle": "light",
