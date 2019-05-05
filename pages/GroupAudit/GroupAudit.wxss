@@ -1,4 +1,4 @@
-/* pages/Brand/Brand.wxss */
+/* pages/GroupAudit/GroupAudit.wxss */
 page{
   background-color: #efefef;
 }
@@ -278,7 +278,7 @@ page{
   float: right;
   width: 15%;
   text-align: center;
-  margin-top: 15rpx;
+  margin-top: 25rpx;
 }
 .item_dianzan .zan_icon{
   width: 60rpx;

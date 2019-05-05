@@ -10,17 +10,17 @@
   <!-- 头像+昵称  结束 -->
   <!-- 列表  开始 -->
   <view class='me_content' >
-    <view class='content_item' >
+    <view class='content_item' catchtap='toUrl' data-url='UserInfo/UserInfo' >
       <image class='item_img' src='/images/icon.png' />
       <text class='item_title' >个人信息</text>
       <image class='item_right' src='/images/left.png' />
     </view>
-    <view class='content_item' >
+    <view class='content_item' catchtap='toUrl' data-url='Integral/Integral'>
       <image class='item_img' src='/images/icon.png' />
       <text class='item_title' >我的积分</text>
       <image class='item_right' src='/images/left.png' />
     </view>
-    <view class='content_item' >
+    <view class='content_item' catchtap='toUrl' data-url='GroupAudit/GroupAudit'>
       <image class='item_img' src='/images/icon.png' />
       <text class='item_title' >群组审核进展</text>
       <image class='item_right' src='/images/left.png' />
@@ -36,7 +36,7 @@
       <image class='item_right' src='/images/left.png' />
     </view>
   </view>
-  <view class='me_content' style="margin-top:20rpx;">
+  <view class='me_content' catchtap='toUrl' data-url='FeedBack/FeedBack'>
     <view class='content_item' >
       <image class='item_img' src='/images/icon.png' />
       <text class='item_title' >意见反馈</text>

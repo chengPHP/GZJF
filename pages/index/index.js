@@ -19,8 +19,8 @@ Page({
         article_id: '3'
       }
     ],
-    indicatorDots: true,
-    autoplay: true,
+    indicatorDots: false,
+    autoplay: false,
     interval: 3000,
     duration: 500,
     // 首页公告展示数据
@@ -31,9 +31,16 @@ Page({
   },
   toTabUrl:function(e){
     let url = e.currentTarget.dataset.tabUrl;
+    let id = e.currentTarget.dataset.showId;
     console.log(url);
+    wx.reLaunch({
+      url: '../'+url+'?id='+id,
+    })
+  },
+  toUrl: function (e){
+    let url = e.currentTarget.dataset.url;
     wx.navigateTo({
-      url: url
+      url: '../'+url,
     })
   },
   //事件处理函数

@@ -22,29 +22,29 @@
   <!-- 列表栏  开始 -->
   <view class='tab_view' >
     <view class="tab_list" >
-      <view class='tab_item' catchtap='toTabUrl' data-tab-id='1'>
+      <view class='tab_item' catchtap='toTabUrl' data-tab-url='Activity/activity' data-show-id='1'>
         <image src="/images/icon.png" class="tab_img" />
         <text>活动</text>
       </view>
-      <view class='tab_item' catchtap='toTabUrl' data-tab-id='1'>
+      <view class='tab_item' catchtap='toTabUrl' data-tab-url='Activity/activity' data-show-id='2'>
         <image  src="/images/icon.png" class="tab_img" />
         <text>任务</text>
       </view>
-      <view class='tab_item' catchtap='toTabUrl' data-tab-id='1'>
+      <view class='tab_item' catchtap='toTabUrl' data-tab-url='Brand/Brand' data-show-id='1'>
         <image  src="/images/icon.png" class="tab_img" />
         <text>品牌</text>
       </view>
-      <view class='tab_item' catchtap='toTabUrl' data-tab-id='1'>
+      <view class='tab_item' catchtap='toTabUrl' data-tab-url='Brand/Brand' data-show-id='2'>
         <image  src="/images/icon.png" class="tab_img" />
         <text>群组</text>
       </view>
     </view>
     <view class="tab_list" >
-      <view class='tab_item' catchtap='toTabUrl' data-tab-url='/pages/Information/Information'>
+      <view class='tab_item' catchtap='toUrl' data-url='Information/Information'>
         <image  src="/images/icon.png" class="tab_img" />
         <text>资讯</text>
       </view>
-      <view class='tab_item' catchtap='toTabUrl' data-tab-id='1'>
+      <view class='tab_item' catchtap='toUrl' data-url='Train/Train'>
         <image  src="/images/icon.png" class="tab_img" />
         <text>培训</text>
       </view>
@@ -52,7 +52,7 @@
         <image  src="/images/icon.png" class="tab_img" />
         <text>投票</text>
       </view>
-      <view class='tab_item' catchtap='toTabUrl' data-tab-id='1'>
+      <view class='tab_item' catchtap='toUrl' data-url='More/More'>
         <image  src="/images/more.png" class="tab_img" />
         <text>更多</text>
       </view>

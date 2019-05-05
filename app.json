@@ -1,13 +1,16 @@
 {
   "pages": [
+    "pages/index/index",
+    "pages/GroupAudit/GroupAudit",
+    "pages/GroupDetail/GroupDetail",
+    "pages/Brand/Brand",
     "pages/CreateGroup/CreateGroup",
     "pages/SignIn/SignIn",
     "pages/Integral/Integral",
-    "pages/Brand/Brand",
     "pages/BrandList/BrandList",
     "pages/BrandDetail/BrandDetail",
     "pages/More/More",
-    "pages/index/index",
+    
     "pages/me/me",
     "pages/InitiateActivity/InitiateActivity",
     "pages/UserInfo/UserInfo",
@@ -52,7 +55,7 @@
         "selectedIconPath": "images/index_select.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/Brand/Brand",
         "text": "群组",
         "iconPath": "images/index.png",
         "selectedIconPath": "images/index_select.png"

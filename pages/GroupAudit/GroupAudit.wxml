@@ -1,0 +1,70 @@
+<!-- 群组审核进展 pages/GroupAudit/GroupAudit.wxml-->
+<view class='content' >
+  <!-- 头部tabBar部分  开始 -->
+  <view class='tabbar_view' >
+    <view bindtap='tabItemShow' data-id="1" class="{{active_index==1?'tab_item tab_item_select':'tab_item'}}" style='border-right: 1rpx solid #efefef;'>
+      <text class='tab_item_title'>我的发起</text>
+    </view>
+    <view bindtap='tabItemShow' data-id="2" class="{{active_index==2?'tab_item tab_item_select':'tab_item'}}" >
+      <text class='tab_item_title'>我的参与</text>
+    </view>
+  </view>
+  <!-- 头部tabBar部分  结束 -->
+
+  <!-- 头部tabBar部分  结束 -->
+  <view class="{{active_index == 1 ? 'tabItem tab_item_show':'tabItem'}}" >
+    <!-- 群组列表 开始 -->
+    <view class='activity_list' >
+      <!-- <view class='page_title'>品牌群组</view> -->
+      <view class='item_list' >
+        <view class='item' >
+          <view class='item_left' >
+            <image src='/images/activity_img.jpg' />
+          </view>
+          <view class='item_right' >
+            <text class='right_title' >东涌镇平安小卫士</text>
+            <text class='right_grade' >平安小卫士</text>
+            <text class='right_time'>2844成员 7活动 2866人气</text>
+            <!-- <view class='item_right_address' >
+              <text class='address' >地址：广东省广州市番禺区莲塘路2号</text>
+            </view> -->
+          </view>
+          <view class='item_dianzan' >
+            <image src="/images/icon.png" class='zan_icon' />
+            <text>点赞(2)</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <!-- 群组列表  结束 -->
+  </view>
+
+
+
+  <view class="{{active_index == 2 ? 'tabItem tab_item_show':'tabItem'}}" >
+  <!-- 群组列表 开始 -->
+    <view class='activity_list' >
+      <!-- <view class='page_title'>品牌群组</view> -->
+      <view class='item_list' >
+        <view class='item' >
+          <view class='item_left' >
+            <image src='/images/activity_img.jpg' />
+          </view>
+          <view class='item_right' >
+            <text class='right_title' >东涌镇平安小卫士</text>
+            <text class='right_grade' >平安小卫士</text>
+            <text class='right_time'>2844成员 7活动 2866人气</text>
+            <!-- <view class='item_right_address' >
+              <text class='address' >地址：广东省广州市番禺区莲塘路2号</text>
+            </view> -->
+          </view>
+          <view class='item_dianzan' >
+            <image src="/images/icon.png" class='zan_icon' />
+            <text>点赞(3)</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <!-- 群组列表  结束 -->
+  </view>
+</view>

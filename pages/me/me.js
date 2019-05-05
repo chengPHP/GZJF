@@ -39,6 +39,14 @@ Page({
     })
   },
 
+  // 跳转到指定页面
+  toUrl: function (e) {
+    let url = e.currentTarget.dataset.url;
+    wx.navigateTo({
+      url: '../'+url,
+    });
+  },
+
   /**
    * 生命周期函数--监听页面加载
    */

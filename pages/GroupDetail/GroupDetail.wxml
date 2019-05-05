@@ -1,0 +1,49 @@
+<!-- 群组详情页 pages/GroupDetail/GroupDetail.wxml-->
+<view class='content' >
+  <!-- 头部品牌logo -->
+  <view class='top_img' >
+    <image src='/images/icon.png' />
+    <text>广州如意平安骑队(广州市平安建设促进会(荔湾区政法委、石围塘街))</text>
+  </view>
+
+  <view class='item_info_list' >
+    <view class='item_info_item' >
+      <text class='item_info_item_num' >1122</text>
+      <text class='item_info_item_label' >成员数</text>
+    </view>
+    <view class='item_info_item' >
+      <text class='item_info_item_num' >1122</text>
+      <text class='item_info_item_label' >活动数</text>
+    </view>
+    <view class='item_info_item' >
+      <text class='item_info_item_num' >1122</text>
+      <text class='item_info_item_label' >人气数</text>
+    </view>
+  </view>
+
+  <!-- 首页轮播图  开始 -->
+  <swiper
+    indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}"
+    interval="{{interval}}"
+    duration="{{duration}}"
+  >
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image catchtap='toArticleInfo' data-article-id="{{item.article_id}}" src="{{item.imgUrl}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <!-- 首页轮播图  结束 -->
+
+  <view class="tabItem" >
+    <view class='introduce_title' >
+      <text class='title_name' >介绍</text>
+    </view>
+    <view class='introduce_detail' >广州如意平安骑队，组建于2014年5月1日，基地在荔湾区石围塘街如意社区。由市区政法委和石围塘街综治办指导，广州如意平安骑队，组建于2014年5月1日，基地在荔湾区石围塘街如意社区。由市区政法委和石围塘街综治办指导，广州如意平安骑队，组建于2014年5月1日，基地在荔湾区石围塘街如意社区。由市区政法委和石围塘街综治办指导，</view>
+    
+  </view>
+
+  <button class='btn' >申请入群</button>
+  
+</view>
