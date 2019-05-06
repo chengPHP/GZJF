@@ -1,0 +1,34 @@
+<!-- 投票详情 pages/VoteDetail/VoteDetail.wxml-->
+<view class='content' >
+  <view class='top' >
+    <image src='/images/activity_img.jpg' class='top_img'/>
+    <text class='top_title' >白云区 白云快递小哥</text>
+    <text class='top_bianhao' >编号：001</text>
+
+    <view class='item_info_list' >
+      <view class='item_info_item' >
+        <text class='item_info_item_num' >7</text>
+        <text class='item_info_item_label' >排名</text>
+      </view>
+      <view class='item_info_item' >
+        <text class='item_info_item_num' >3242</text>
+        <text class='item_info_item_label' >票数</text>
+      </view>
+    </view>
+  </view>
+  <view class='duanluo' >
+    <text>技术雷达是 ThoughtWorks 每半年发布一期的技术趋势报告，InfoQ 每年都与 ThoughtWorks 合作发布最新一期雷达内容。这是一份关于技术趋势的报告，由 ThoughtWorks 技术战略委员会（TAB）经由多番正式讨论给出，它以独特的雷达形式对各类最新技术的成熟度进行评估并给出建议，为从程序员到 CTO 的利益相关者提供参考</text>
+    <text>技术雷达是 ThoughtWorks 每半年发布一期的技术趋势报告，InfoQ 每年都与 ThoughtWorks 合作发布最新一期雷达内容。这是一份关于技术趋势的报告，由 ThoughtWorks 技术战略委员会（TAB）经由多番正式讨论给出，它以独特的雷达形式对各类最新技术的成熟度进行评估并给出建议，为从程序员到 CTO 的利益相关者提供参考</text>
+    <text>技术雷达是 ThoughtWorks 每半年发布一期的技术趋势报告，InfoQ 每年都与 ThoughtWorks 合作发布最新一期雷达内容。这是一份关于技术趋势的报告，由 ThoughtWorks 技术战略委员会（TAB）经由多番正式讨论给出，它以独特的雷达形式对各类最新技术的成熟度进行评估并给出建议，为从程序员到 CTO 的利益相关者提供参考</text>
+  </view>
+
+  <view class='bottom_content' >
+    <view class='bottom_left' >
+    <image src='/images/fenxiang.png' />
+    <text>分享</text>
+    </view>
+    <view class='bottom_right' >投票</view>
+  </view>
+
+  
+</view>

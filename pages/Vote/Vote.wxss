@@ -1,0 +1,168 @@
+/* pages/Vote/Vote.wxss */
+page{
+  background-color: #efefef;
+}
+.content{
+  position: relative;
+}
+.search{
+  /* border: 1rpx solid red; */
+  padding: 20rpx;
+}
+.search input{
+  background-color: #fff;
+  height: 60rpx;
+  line-height: 60rpx;
+  border-radius: 60rpx;
+  font-size: 28rpx;
+  color: #333;
+  padding: 10rpx 20rpx;
+}
+.top{
+  background-color: #fff;
+  margin: 20rpx auto;
+  padding: 20rpx;
+  overflow: auto;
+}
+.top .title{
+  display: block;
+  /* border: 1px solid red; */
+  padding: 20rpx;
+  text-align: center;
+  font-size: 36rpx;
+  color: #333;
+}
+.item_info_list{
+  width: 100%;
+  /* border: 1px solid blue; */
+  display: flex;
+  float: left;
+  color: #333;
+  /* flex-direction: column; */
+  justify-content: center;
+}
+.item_info_list .item_info_item{
+  width: 33%;
+  /* border: 1px solid red; */
+  text-align: center;
+}
+.item_info_list .item_info_item text{
+  display: block;
+  padding: 5rpx 8rpx;
+}
+.item_info_list .item_info_item .item_info_item_num{
+  color: red;
+  font-size: 46rpx;
+  font-style: italic
+}
+.item_info_list .item_info_item .item_info_item_label{
+  color: #999;
+  font-size: 24rpx;
+}
+
+/* 列表部分 */
+.activity_list{
+  width: 100%;
+  overflow: auto;
+  /* border: 1px solid red; */
+}
+.activity_list .activity_item{
+  width: 48%;
+  position: relative;
+  border: 1rpx solid #efefef;
+  border-radius: 10rpx;
+  padding: 10rpx 5rpx;
+  display: flex;
+  float: left;
+  color: #333;
+  /* flex-direction: column; */
+  justify-content: center;
+  background-color: #fff;
+}
+.activity_list .activity_item text{
+  display: inline-block;
+}
+.activity_list .activity_item .activity_item_top{
+  width: 100%;
+}
+
+.activity_list .activity_item .activity_item_top .item_top_img{
+  margin-top: 50rpx;
+  width: 100%;
+  max-height: 180rpx;
+}
+.activity_list .activity_item .activity_item_top .item_num{
+  display: block;
+  float: left;
+  border-top: 1rpx solid #efefef;
+  font-size: 28rpx;
+  padding: 15rpx 0;
+  margin-left: 20rpx;
+  width: 60%;
+}
+.activity_list .activity_item .activity_item_top .item_title{
+  float: right;
+  overflow: auto;
+  width: 33%;
+  text-align: center;
+}
+.activity_list .activity_item .activity_item_top .item_title .title_icon{
+  width: 50rpx;
+  height: 50rpx;
+}
+.activity_list .activity_item .activity_item_top .item_title .item_number{
+  font-size: 28rpx;
+}
+
+.bianhao{
+  font-size: 24rpx;
+  color: #fff;
+  background-color: #0078D7;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 120rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+}
+.fenxiang{
+  position: absolute;
+  width: 60rpx;
+  height: 60rpx;
+  right: 0;
+  top: 0;
+}
+.flexd_item{
+  background-color: #0078D7;
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 90rpx;
+  position: absolute;
+  text-align: center;
+  
+}
+.flexd1{
+  bottom: 320rpx;
+  left: 10rpx;
+}
+.flexd2{
+  bottom: 220rpx;
+  left: 10rpx;
+}
+.flexd3{
+  bottom: 120rpx;
+  left: 10rpx;
+}
+.flexd4{
+  bottom: 20rpx;
+  left: 10rpx;
+}
+.flexd_item .flexd_img{
+  width: 40rpx;
+  height: 40rpx;
+}
+.flexd_item text{
+  display: block;
+  font-size: 18rpx;
+  color: #fff;
+}

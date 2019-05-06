@@ -1,16 +1,20 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/VoteList/VoteList",
+    "pages/BrandList/BrandList",
+    "pages/Vote/Vote",
+    "pages/MeVoteList/MeVoteList",
+    "pages/VoteDetail/VoteDetail",
     "pages/GroupAudit/GroupAudit",
     "pages/GroupDetail/GroupDetail",
     "pages/Brand/Brand",
     "pages/CreateGroup/CreateGroup",
     "pages/SignIn/SignIn",
     "pages/Integral/Integral",
-    "pages/BrandList/BrandList",
+    
     "pages/BrandDetail/BrandDetail",
     "pages/More/More",
-    
     "pages/me/me",
     "pages/InitiateActivity/InitiateActivity",
     "pages/UserInfo/UserInfo",

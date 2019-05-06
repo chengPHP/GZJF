@@ -1,0 +1,110 @@
+/* pages/VoteDetail/VoteDetail.wxss */
+page{
+  background-color: #efefef;
+}
+.content{
+  position: relative;
+}
+.top{
+  background-color: #fff;
+  width: 100%;
+  text-align: center;
+  overflow: auto;
+}
+.top .top_img{
+  width: 95%;
+  max-height: 400rpx;
+  margin: 20rpx auto;
+}
+.top_title{
+  font-size: 38rpx;
+  color: #333;
+  display: block;
+  text-align: left;
+  padding: 20rpx;
+}
+.top_bianhao{
+  background-color: #efefef;
+  color: #333;
+  float: left;
+  margin-left: 20rpx;
+  font-size: 28rpx;
+}
+
+.item_info_list{
+  width: 100%;
+  /* border: 1px solid blue; */
+  display: flex;
+  float: left;
+  color: #333;
+  /* flex-direction: column; */
+  justify-content: center;
+}
+.item_info_list .item_info_item{
+  width: 49%;
+  /* border: 1px solid red; */
+  text-align: center;
+}
+.item_info_list .item_info_item text{
+  display: block;
+  padding: 5rpx 8rpx;
+}
+.item_info_list .item_info_item .item_info_item_num{
+  color: red;
+  font-size: 46rpx;
+  font-style: italic
+}
+.item_info_list .item_info_item .item_info_item_label{
+  color: #999;
+  font-size: 24rpx;
+}
+
+.duanluo{
+  padding: 20rpx;
+  background-color: #fff;
+  margin: 20rpx auto;
+  color: #333;
+}
+.duanluo text{
+  font-size: 28rpx;
+  display: inline-block;
+  text-indent: 2em;
+}
+.bottom_content{
+  position: fixed;
+  bottom: 0rpx;
+  background-color: #fff;
+  height: 80rpx;
+  width: 100%;
+  font-size: 28rpx;
+  
+}
+.bottom_content .bottom_left{
+  float: left;
+  width: 35%;
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+  color: #333;
+  overflow: auto;
+}
+.bottom_content .bottom_left image{
+  width: 50rpx;
+  height: 50rpx;
+  margin-left: 80rpx;
+  margin-top: 15rpx;
+  float: left;
+}
+.bottom_content .bottom_left text{
+  float: left;
+  margin-left: 10rpx;
+}
+.bottom_content .bottom_right{
+  float: right;
+  text-align: center;
+  width: 65%;
+  height: 80rpx;
+  line-height: 80rpx;
+  color: #fff;
+  background-color: #4395FF;
+}

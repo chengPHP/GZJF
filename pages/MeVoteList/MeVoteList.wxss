@@ -1,0 +1,98 @@
+/* pages/MeVoteList/MeVoteList.wxss */
+page{
+  background-color: #efefef;
+}
+.content{
+  background-color: #fff;
+  margin: 10rpx auto 50rpx auto;
+}
+
+
+.item_list{
+  /* border: 1px solid red; */
+  /* margin-bottom: 60rpx; */
+}
+
+.item_list .item{
+  border-bottom: 1px solid #efefef;
+  margin: 20rpx 0;
+  overflow: auto;
+  background-color: #fff;
+  position: relative;
+}
+.selected{
+  position: absolute;
+  width: 54rpx;
+  height: 30rpx;
+  top: 0rpx;
+  right: 20rpx;
+  z-index: 1000；
+}
+
+.item_list .item .item_left{
+  /* border: 1px solid yellow; */
+  padding: 10rpx;
+  width: 20%;
+  float: left;
+}
+.item_list .item .item_left image{
+  max-width: 140rpx;
+  max-height: 140rpx;
+  border-radius: 10rpx;
+  margin-top: 10rpx;
+  margin-left: 20rpx;
+}
+
+.item_list .item .item_right{
+  float: left;
+  /* border: 1px solid green; */
+  padding: 20rpx;
+  width: 55%;
+  /* overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; */
+}
+.item_right .right_title{
+  display: block;
+  font-size: 26rpx;
+  color: #333;
+  /* 容器文本溢出显示省略号 */
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.right_grade{
+  display: inline-block;
+  /* border: 1rpx solid red; */
+  color: red;
+  font-size: 18rpx;
+  padding: 3rpx 5rpx;
+  border-radius: 5rpx;
+}
+.item_right_address text{
+  font-size: 22rpx;
+  color: #999;
+  /* display: block; */
+}
+.item_right_address .address{
+  float: left;
+  /* 容器文本溢出显示省略号 */
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.item_dianzan{
+  float: right;
+  width: 15%;
+  text-align: center;
+  margin-top: 25rpx;
+}
+.item_dianzan .zan_icon{
+  width: 60rpx;
+  height: 60rpx; 
+}
+.item_dianzan text{
+  font-size: 26rpx;
+  color: #333;
+  display: block;
+}

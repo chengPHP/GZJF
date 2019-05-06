@@ -48,7 +48,7 @@
         <image  src="/images/icon.png" class="tab_img" />
         <text>培训</text>
       </view>
-      <view class='tab_item' catchtap='toTabUrl' data-tab-id='1'>
+      <view class='tab_item' catchtap='toUrl' data-url='Vote/Vote'>
         <image  src="/images/icon.png" class="tab_img" />
         <text>投票</text>
       </view>

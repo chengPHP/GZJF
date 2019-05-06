@@ -25,7 +25,7 @@
       <text class='item_title' >群组审核进展</text>
       <image class='item_right' src='/images/left.png' />
     </view>
-    <view class='content_item' >
+    <view class='content_item' catchtap='toUrl' data-url='MeVoteList/MeVoteList' >
       <image class='item_img' src='/images/icon.png' />
       <text class='item_title' >我的投票</text>
       <image class='item_right' src='/images/left.png' />
