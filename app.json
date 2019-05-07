@@ -1,7 +1,8 @@
 {
   "pages": [
-    "pages/SignIn/SignIn",
     "pages/index/index",
+    "pages/SignIn/SignIn",
+    
     "pages/VoteList/VoteList",
     "pages/BrandList/BrandList",
     "pages/Vote/Vote",
