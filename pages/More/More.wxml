@@ -4,33 +4,33 @@
     <view class='tab_view' >
       <view class="tab_list" >
         <view class='tab_item' catchtap='toTabUrl' data-tab-id='1'>
-          <image src="/images/icon.png" class="tab_img" />
+          <image src="/images/huodong.png" class="tab_img" />
           <text>活动</text>
         </view>
         <view class='tab_item' catchtap='toTabUrl' data-tab-id='1'>
-          <image  src="/images/icon.png" class="tab_img" />
+          <image  src="/images/renwu.png" class="tab_img" />
           <text>任务</text>
         </view>
         <view class='tab_item' catchtap='toTabUrl' data-tab-id='1'>
-          <image  src="/images/icon.png" class="tab_img" />
+          <image  src="/images/pinpai.png" class="tab_img" />
           <text>品牌</text>
         </view>
         <view class='tab_item' catchtap='toTabUrl' data-tab-id='1'>
-          <image  src="/images/icon.png" class="tab_img" />
+          <image  src="/images/qunzu.png" class="tab_img" />
           <text>群组</text>
         </view>
       </view>
       <view class="tab_list" >
         <view class='tab_item' catchtap='toTabUrl' data-tab-url='/pages/Information/Information'>
-          <image  src="/images/icon.png" class="tab_img" />
+          <image  src="/images/zixun.png" class="tab_img" />
           <text>资讯</text>
         </view>
         <view class='tab_item' catchtap='toTabUrl' data-tab-id='1'>
-          <image  src="/images/icon.png" class="tab_img" />
+          <image  src="/images/peixun.png" class="tab_img" />
           <text>培训</text>
         </view>
         <view class='tab_item' catchtap='toTabUrl' data-tab-id='1'>
-          <image  src="/images/icon.png" class="tab_img" />
+          <image  src="/images/toupiao.png" class="tab_img" />
           <text>投票</text>
         </view>
         <view class='tab_item' catchtap='toTabUrl' data-tab-id='1'>
@@ -41,11 +41,11 @@
 
       <view class="tab_list" >
         <view class='tab_item' catchtap='toTabUrl' data-tab-id='1'>
-          <image src="/images/icon.png" class="tab_img" />
+          <image src="/images/fuli.png" class="tab_img" />
           <text>福利</text>
         </view>
         <view class='tab_item' catchtap='toTabUrl' data-tab-id='1'>
-          <image src="/images/icon.png" class="tab_img" />
+          <image src="/images/suishoupai.png" class="tab_img" />
           <text>随手拍</text>
         </view>
       </view>

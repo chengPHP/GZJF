@@ -109,6 +109,7 @@ page{
 .activity_list .activity_item .activity_item_top .item_title .title_icon{
   width: 50rpx;
   height: 50rpx;
+  vertical-align: middle;
 }
 .activity_list .activity_item .activity_item_top .item_title .item_number{
   font-size: 28rpx;

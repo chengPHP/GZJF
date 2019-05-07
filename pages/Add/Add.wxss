@@ -1,10 +1,13 @@
-/* pages/More/More.wxss */
-.page{
-  /* background-color:  */
+/* pages/Add/Add.wxss */
+.content{
+  /* position: relative; */
 }
 /* tab列表部分 */
 .tab_view{
+  position: fixed;
   width: 100%;
+  /* border: 1px solid red; */
+  bottom: 180rpx;
   /* margin: 15rpx 0; */
 }
 .tab_list{
@@ -29,4 +32,21 @@
   display: block;
   font-size:32rpx;
   color: #333;
+}
+
+.close{
+  position: absolute;
+  /* border: 1px solid red; */
+  bottom: 50rpx;
+  text-align: center;
+  width: 100%;
+}
+.close image{
+  width: 50rpx;
+  height: 50rpx;
+}
+.close text{
+  display: block;
+  font-size: 28rpx;
+  color: #666;
 }

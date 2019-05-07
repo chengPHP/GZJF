@@ -139,9 +139,8 @@ page{
   /* line-height: 80rpx; */
 }
 .like_dianzan .dianzan_icon{
-  width: 60rpx;
-  height: 60rpx;
-  /* display: inline-block; */
+  width: 40rpx;
+  height: 40rpx;
   padding: 10rpx;
   margin-left: 23rpx;
   float: left;
@@ -179,8 +178,8 @@ page{
   background-color: #fff;
 }
 .jiefang_item .jiefang_item_img{
-  width: 120rpx;
-  height: 120rpx;
+  width: 100rpx;
+  height: 100rpx;
   margin-top: 10rpx;
 }
 .item_brand_name{

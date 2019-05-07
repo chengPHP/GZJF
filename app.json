@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/SignIn/SignIn",
     "pages/index/index",
     "pages/VoteList/VoteList",
     "pages/BrandList/BrandList",
@@ -10,9 +11,8 @@
     "pages/GroupDetail/GroupDetail",
     "pages/Brand/Brand",
     "pages/CreateGroup/CreateGroup",
-    "pages/SignIn/SignIn",
-    "pages/Integral/Integral",
     
+    "pages/Integral/Integral",
     "pages/BrandDetail/BrandDetail",
     "pages/More/More",
     "pages/me/me",
@@ -25,7 +25,8 @@
     "pages/Train/Train",
     "pages/Information/Information",
     "pages/Feedback/Feedback",
-    "pages/SelectActivity/SelectActivity"
+    "pages/SelectActivity/SelectActivity",
+    "pages/Add/Add"
     
   ],
   "window": {
@@ -49,20 +50,20 @@
       {
         "pagePath": "pages/Activity/activity",
         "text": "活动",
-        "iconPath": "images/index.png",
-        "selectedIconPath": "images/index_select.png"
+        "iconPath": "images/huodong-1.png",
+        "selectedIconPath": "images/huodong.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/Add/Add",
         "text": "添加",
-        "iconPath": "images/index.png",
-        "selectedIconPath": "images/index_select.png"
+        "iconPath": "images/tianjia-1.png",
+        "selectedIconPath": "images/tianjia.png"
       },
       {
         "pagePath": "pages/Brand/Brand",
         "text": "群组",
-        "iconPath": "images/index.png",
-        "selectedIconPath": "images/index_select.png"
+        "iconPath": "images/qunzu-1.png",
+        "selectedIconPath": "images/qunzu.png"
       },
       {
         "pagePath": "pages/me/me",

@@ -3,12 +3,12 @@ page{
   background-color: #efefef;
 }
 .content{
-  background-color: #fff;
+  /* background-color: #fff; */
   margin-bottom: 100rpx;
 }
 
 .top{
-  width: 95%;
+  /* width: 95%; */
   height: 350rpx;
   position: relative;
   /* display: flex; */
@@ -18,7 +18,7 @@ page{
   /* justify-content: center; */
   text-align: center;
   /* padding: 50rpx 20rpx; */
-  background-color: #FF3000;
+  background-color: rgb(243, 29, 10);
 }
 .top image{
   width: 100rpx;

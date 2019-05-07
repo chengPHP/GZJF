@@ -29,7 +29,7 @@
             <image src='/images/activity_img.jpg' class='item_top_img'/>
             <text class='item_num'>白云区 白云快递小哥</text>
             <view class='item_title' >
-              <image src='/images/icon.png' class='title_icon'/>
+              <image src='/images/dianzan-2.png' class='title_icon'/>
               <text class='item_number'>3242</text>
             </view>
           </view>
@@ -41,7 +41,7 @@
             <image src='/images/activity_img.jpg' class='item_top_img'/>
             <text class='item_num'>白云区 白云快递小哥</text>
             <view class='item_title' >
-              <image src='/images/icon.png' class='title_icon'/>
+              <image src='/images/dianzan-2.png' class='title_icon'/>
               <text class='item_number'>3242</text>
             </view>
           </view>
@@ -53,7 +53,7 @@
             <image src='/images/activity_img.jpg' class='item_top_img'/>
             <text class='item_num'>白云区 白云快递小哥</text>
             <view class='item_title' >
-              <image src='/images/icon.png' class='title_icon'/>
+              <image src='/images/dianzan-2.png' class='title_icon'/>
               <text class='item_number'>3242</text>
             </view>
           </view>
@@ -65,7 +65,7 @@
             <image src='/images/activity_img.jpg' class='item_top_img'/>
             <text class='item_num'>白云区 白云快递小哥</text>
             <view class='item_title' >
-              <image src='/images/icon.png' class='title_icon'/>
+              <image src='/images/dianzan-2.png' class='title_icon'/>
               <text class='item_number'>3242</text>
             </view>
           </view>
@@ -77,19 +77,19 @@
     <!-- 活动、任务列表部分  结束 -->
 
     <view class='flexd_item flexd1' >
-      <image src='/images/zan.png' class='flexd_img' />
+      <image src='/images/shouye-1.png' class='flexd_img' />
       <text>首页</text>
     </view>
     <view class='flexd_item flexd2' >
-      <image src='/images/zan.png' class='flexd_img' />
+      <image src='/images/guize-1.png' class='flexd_img' />
       <text>规则</text>
     </view>
     <view class='flexd_item flexd3' >
-      <image src='/images/zan.png' class='flexd_img' />
+      <image src='/images/fenxiang-1.png' class='flexd_img' />
       <text>分享</text>
     </view>
     <view class='flexd_item flexd4'bindtap='toVoteList'>
-      <image src='/images/zan.png' class='flexd_img' />
+      <image src='/images/bangdan-1.png' class='flexd_img' />
       <text>榜单</text>
     </view>
 

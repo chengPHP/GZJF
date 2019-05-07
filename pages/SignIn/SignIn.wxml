@@ -15,7 +15,7 @@
       </view>
       <view class="tr">
         <view class="td">2019-05-04 18:19:49</view>
-        <view class="td">+1</view>
+        <view class="td" style='color:#F31D0A' >+1</view>
       </view>
     </view>
 

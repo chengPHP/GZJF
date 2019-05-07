@@ -65,7 +65,7 @@
 }
 .search text{
   display: block;
-  color: red;
+  color: #4395FF;
   float: left;
   line-height: 85rpx;
   margin-left: 50rpx; 

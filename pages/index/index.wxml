@@ -1,18 +1,13 @@
 <!--index.wxml-->
 <view class="container">
   <!-- 首页轮播图  开始 -->
-  <swiper
-    indicator-dots="{{indicatorDots}}"
-    autoplay="{{autoplay}}"
-    interval="{{interval}}"
-    duration="{{duration}}"
-  >
-    <block wx:for="{{imgUrls}}">
-      <swiper-item>
-        <image catchtap='toArticleInfo' data-article-id="{{item.article_id}}" src="{{item.imgUrl}}" class="slide-image" />
-      </swiper-item>
-    </block>
-  </swiper>
+  <swiper class="swiper" indicator-dots="true" autoplay="true" interval="3000" duration="500" indicator-color="white" indicator-active-color="rgb(47,152,241)">  
+    <block wx:for="{{imgUrls}}" wx:for-index="index">  
+      <swiper-item>  
+        <image catchtap='toArticleInfo' data-article-id="{{item.article_id}}" src="{{item.imgUrl}}" class="slide-image" mode="aspectFill"/>  
+      </swiper-item>  
+    </block>  
+  </swiper>  
   <!-- 首页轮播图  结束 -->
   <!-- 首页公告展示  开始 -->
   <view class='notice' >
@@ -23,46 +18,46 @@
   <view class='tab_view' >
     <view class="tab_list" >
       <view class='tab_item' catchtap='toTabUrl' data-tab-url='Activity/activity' data-show-id='1'>
-        <image src="/images/icon.png" class="tab_img" />
+        <image src="/images/huodong.png" class="tab_img" />
         <text>活动</text>
       </view>
       <view class='tab_item' catchtap='toTabUrl' data-tab-url='Activity/activity' data-show-id='2'>
-        <image  src="/images/icon.png" class="tab_img" />
+        <image  src="/images/renwu.png" class="tab_img" />
         <text>任务</text>
       </view>
       <view class='tab_item' catchtap='toTabUrl' data-tab-url='Brand/Brand' data-show-id='1'>
-        <image  src="/images/icon.png" class="tab_img" />
+        <image  src="/images/pinpai.png" class="tab_img" />
         <text>品牌</text>
       </view>
       <view class='tab_item' catchtap='toTabUrl' data-tab-url='Brand/Brand' data-show-id='2'>
-        <image  src="/images/icon.png" class="tab_img" />
+        <image  src="/images/qunzu.png" class="tab_img" />
         <text>群组</text>
       </view>
     </view>
     <view class="tab_list" >
       <view class='tab_item' catchtap='toUrl' data-url='Information/Information'>
-        <image  src="/images/icon.png" class="tab_img" />
+        <image  src="/images/zixun.png" class="tab_img" />
         <text>资讯</text>
       </view>
       <view class='tab_item' catchtap='toUrl' data-url='Train/Train'>
-        <image  src="/images/icon.png" class="tab_img" />
+        <image  src="/images/peixun.png" class="tab_img" />
         <text>培训</text>
       </view>
       <view class='tab_item' catchtap='toUrl' data-url='Vote/Vote'>
-        <image  src="/images/icon.png" class="tab_img" />
+        <image  src="/images/toupiao.png" class="tab_img" />
         <text>投票</text>
       </view>
       <view class='tab_item' catchtap='toUrl' data-url='More/More'>
-        <image  src="/images/more.png" class="tab_img" />
+        <image  src="/images/gengduo.png" class="tab_img" />
         <text>更多</text>
       </view>
     </view>
   </view>
   <!-- 列表栏  结束 -->
   <!-- 左下角固定框  开始 -->
-  <view class='sign' >
-    <image catchtap='' src="/images/sign.png" class='sign_img' />
-    <text>发起活动</text>
+  <view class='sign' catchtap='toUrl' data-url='SignIn/SignIn'>
+    <image src="/images/sign.png" class='sign_img' />
+    <text>签到</text>
   </view>
   <!-- 左下角固定框  结束 -->
 </view>

@@ -8,7 +8,7 @@ page{
   padding-bottom: 100rpx;
 }
 .item_title{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   font-size: 28rpx;
   height: 60rpx;
   padding: 10rpx;
@@ -51,9 +51,9 @@ page{
   height: 80rpx;
   /* padding: 10rpx 0; */
   text-align: center;
-  font-size: 24rpx;
+  font-size: 28rpx;
   color: #fff;
-  background-color: red;
+  background-color: #4395FF;
   line-height: 80rpx;
   border-radius: 80rpx;
   margin: 100rpx auto;

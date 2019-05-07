@@ -3,11 +3,11 @@
   <!-- 头部tabBar部分  开始 -->
   <view class='tabbar_view' >
     <view bindtap='tabItemShow' data-id="1" class="{{active_index==1?'tab_item tab_item_select':'tab_item'}}" style='border-right: 1rpx solid #efefef;'>
-      <image src='/images/icon.png' class='tab_item_icon' />
+      <image src='/images/huodong.png' class='tab_item_icon' />
       <text class='tab_item_title'>活动</text>
     </view>
     <view bindtap='tabItemShow' data-id="2" class="{{active_index==2?'tab_item tab_item_select':'tab_item'}}" >
-      <image src='/images/icon.png' class='tab_item_icon' />
+      <image src='/images/renwu.png' class='tab_item_icon' />
       <text class='tab_item_title'>任务</text>
     </view>
   </view>
@@ -78,7 +78,7 @@
       <text>发起活动</text>
     </view>
     <view class='me_activity' >
-      <image catchtap='' src="/images/me.png" class='sign_img' />
+      <image catchtap='' src="/images/me_select.png" class='sign_img' />
       <text>我的活动</text>
     </view>
     <!-- 左下角固定框  结束 -->
@@ -153,7 +153,7 @@
       <text>发起活动</text>
     </view>
     <view class='me_activity' >
-      <image catchtap='' src="/images/me.png" class='sign_img' />
+      <image catchtap='' src="/images/me_select.png" class='sign_img' />
       <text>我的活动</text>
     </view>
     <!-- 左下角固定框  结束 -->

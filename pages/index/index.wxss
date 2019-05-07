@@ -35,8 +35,8 @@ page{
   /* border: 1rpx solid red; */
 }
 .tab_list .tab_item .tab_img{
-  width: 130rpx;
-  height: 130rpx;
+  width: 100rpx;
+  height: 100rpx;
 }
 .tab_list .tab_item text{
   display: block;

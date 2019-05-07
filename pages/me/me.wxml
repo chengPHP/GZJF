@@ -11,39 +11,39 @@
   <!-- 列表  开始 -->
   <view class='me_content' >
     <view class='content_item' catchtap='toUrl' data-url='UserInfo/UserInfo' >
-      <image class='item_img' src='/images/icon.png' />
+      <image class='item_img' src='/images/gerenxinxi.png' />
       <text class='item_title' >个人信息</text>
       <image class='item_right' src='/images/left.png' />
     </view>
     <view class='content_item' catchtap='toUrl' data-url='Integral/Integral'>
-      <image class='item_img' src='/images/icon.png' />
+      <image class='item_img' src='/images/jifen.png' />
       <text class='item_title' >我的积分</text>
       <image class='item_right' src='/images/left.png' />
     </view>
     <view class='content_item' catchtap='toUrl' data-url='GroupAudit/GroupAudit'>
-      <image class='item_img' src='/images/icon.png' />
+      <image class='item_img' src='/images/jinzhan.png' />
       <text class='item_title' >群组审核进展</text>
       <image class='item_right' src='/images/left.png' />
     </view>
     <view class='content_item' catchtap='toUrl' data-url='MeVoteList/MeVoteList' >
-      <image class='item_img' src='/images/icon.png' />
+      <image class='item_img' src='/images/toupiao.png' />
       <text class='item_title' >我的投票</text>
       <image class='item_right' src='/images/left.png' />
     </view>
     <view class='content_item' >
-      <image class='item_img' src='/images/icon.png' />
+      <image class='item_img' src='/images/pinglunguanli.png' />
       <text class='item_title' >评论管理</text>
       <image class='item_right' src='/images/left.png' />
     </view>
   </view>
-  <view class='me_content' catchtap='toUrl' data-url='FeedBack/FeedBack'>
+  <view class='me_content' catchtap='toUrl' data-url='Feedback/Feedback'>
     <view class='content_item' >
-      <image class='item_img' src='/images/icon.png' />
+      <image class='item_img' src='/images/yijianfankui.png' />
       <text class='item_title' >意见反馈</text>
       <image class='item_right' src='/images/left.png' />
     </view>
-    <view class='content_item' bindtap='showContactMode' >
-      <image class='item_img' src='/images/icon.png' />
+    <view class='content_item' catchtap='showContactMode' >
+      <image class='item_img' src='/images/lianxiwomen.png' />
       <text class='item_title' >联系我们</text>
       <image class='item_right' src='/images/left.png' />
     </view>
@@ -52,7 +52,7 @@
   <!-- 生成二维码  开始 -->
   <view class='me_bottom' >
     <view class='qr_text'>这是您的专属二维码</view>
-    <image bindtap='imgShow' data-src="{{imgs}}" src="/images/icon.png" class='qr_code_img' />
+    <image bindtap='imgShow' data-src="{{imgs}}" src="/images/helloWorld.png" class='qr_code_img' />
     <view class='code_text'>推荐您的朋友扫描此二维码</view>
     <view class='code_text'>可获得积分，惊喜不断</view>
   </view>

@@ -4,11 +4,11 @@
   <!-- 头部tabBar部分  开始 -->
   <view class='tabbar_view' >
     <view bindtap='tabItemShow' data-id="1" class="{{active_index==1?'tab_item tab_item_select':'tab_item'}}" style='border-right: 1rpx solid #efefef;'>
-      <image src='/images/icon.png' class='tab_item_icon' />
+      <image src='/images/pinpai.png' class='tab_item_icon' />
       <text class='tab_item_title'>品牌</text>
     </view>
     <view bindtap='tabItemShow' data-id="2" class="{{active_index==2?'tab_item tab_item_select':'tab_item'}}" >
-      <image src='/images/icon.png' class='tab_item_icon' />
+      <image src='/images/qunzu.png' class='tab_item_icon' />
       <text class='tab_item_title'>群组</text>
     </view>
   </view>
@@ -44,7 +44,7 @@
           </view>
         </view>
         <view class='like_dianzan' >
-          <image src='/images/icon.png' class='dianzan_icon' />
+          <image src='/images/zan.png' class='dianzan_icon' />
           <text>点赞(13)</text>
         </view>
       </view>
@@ -66,7 +66,7 @@
           </view>
         </view>
         <view class='like_dianzan' >
-          <image src='/images/icon.png' class='dianzan_icon' />
+          <image src='/images/zan.png' class='dianzan_icon' />
           <text>点赞(13)</text>
         </view>
       </view>
@@ -88,7 +88,7 @@
           </view>
         </view>
         <view class='like_dianzan' >
-          <image src='/images/icon.png' class='dianzan_icon' />
+          <image src='/images/zan.png' class='dianzan_icon' />
           <text>点赞(13)</text>
         </view>
       </view>
@@ -96,11 +96,11 @@
     <!-- 榜单分类 -->
     <view class='tabbar_view' style='border:none;margin:15rpx 0;' >
       <view class="tab_item" style='border-right:1rpx solid #efefef;'>
-        <image src='/images/icon.png' class='tab_item_icon' />
+        <image src='/images/zhou.png' class='tab_item_icon' />
         <text class='tab_item_title'>周榜单</text>
       </view>
       <view class="tab_item">
-        <image src='/images/icon.png' class='tab_item_icon' />
+        <image src='/images/yue.png' class='tab_item_icon' />
         <text class='tab_item_title'>月榜单</text>
       </view>
     </view>
@@ -141,7 +141,7 @@
             </view> -->
           </view>
           <view class='item_dianzan' >
-            <image src="/images/icon.png" class='zan_icon' />
+            <image src="/images/zan.png" class='zan_icon' />
             <text>点赞(2)</text>
           </view>
         </view>
@@ -191,7 +191,7 @@
             </view> -->
           </view>
           <view class='item_dianzan' >
-            <image src="/images/icon.png" class='zan_icon' />
+            <image src="/images/zan.png" class='zan_icon' />
             <text>点赞(2)</text>
           </view>
         </view>
@@ -222,7 +222,7 @@
             </view> -->
           </view>
           <view class='item_dianzan' >
-            <image src="/images/icon.png" class='zan_icon' />
+            <image src="/images/zan.png" class='zan_icon' />
             <text>点赞(2)</text>
           </view>
         </view>
@@ -242,19 +242,19 @@
     <!-- 推荐群组  开始 -->
     <view class='jiefang_list' >
       <view class='jiefang_item'>
-        <image src='/images/icon.png' class='jiefang_item_img' />
+        <image src='/images/renqi.png' class='jiefang_item_img' />
         <text class='item_brand_name' >人气群组</text>
       </view>
       <view class='jiefang_item'>
-        <image src='/images/icon.png' class='jiefang_item_img' />
+        <image src='/images/xinjin.png' class='jiefang_item_img' />
         <text class='item_brand_name' >新进群组</text>
       </view>
       <view class='jiefang_item'>
-        <image src='/images/icon.png' class='jiefang_item_img' />
+        <image src='/images/xihuan.png' class='jiefang_item_img' />
         <text class='item_brand_name' >猜你喜欢</text>
       </view>
       <view class='jiefang_item'>
-        <image src='/images/icon.png' class='jiefang_item_img' />
+        <image src='/images/gengduo.png' class='jiefang_item_img' />
         <text class='item_brand_name' >更多分类</text>
       </view>
     </view>
@@ -276,7 +276,7 @@
             </view> -->
           </view>
           <view class='item_dianzan' >
-            <image src="/images/icon.png" class='zan_icon' />
+            <image src="/images/zan.png" class='zan_icon' />
             <text>点赞(2)</text>
           </view>
         </view>
@@ -293,7 +293,7 @@
             </view> -->
           </view>
           <view class='item_dianzan' >
-            <image src="/images/icon.png" class='zan_icon' />
+            <image src="/images/zan.png" class='zan_icon' />
             <text>点赞(2)</text>
           </view>
         </view>
@@ -310,7 +310,7 @@
             </view> -->
           </view>
           <view class='item_dianzan' >
-            <image src="/images/icon.png" class='zan_icon' />
+            <image src="/images/zan.png" class='zan_icon' />
             <text>点赞(2)</text>
           </view>
         </view>
