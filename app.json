@@ -39,7 +39,7 @@
   "tabBar": {
     "custom": false,
     "color": "#000000",
-    "selectedColor": "#1296db",
+    "selectedColor": "#4395FF",
     "backgroundColor": "#fff",
     "list": [
       {
@@ -51,8 +51,8 @@
       {
         "pagePath": "pages/Activity/activity",
         "text": "活动",
-        "iconPath": "images/huodong-1.png",
-        "selectedIconPath": "images/huodong.png"
+        "iconPath": "images/huodong-2.png",
+        "selectedIconPath": "images/huodong-1.png"
       },
       {
         "pagePath": "pages/Add/Add",
@@ -63,8 +63,8 @@
       {
         "pagePath": "pages/Brand/Brand",
         "text": "群组",
-        "iconPath": "images/qunzu-1.png",
-        "selectedIconPath": "images/qunzu.png"
+        "iconPath": "images/qunzu-2.png",
+        "selectedIconPath": "images/qunzu-1.png"
       },
       {
         "pagePath": "pages/me/me",
